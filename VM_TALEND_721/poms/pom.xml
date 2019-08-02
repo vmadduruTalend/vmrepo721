@@ -12,6 +12,7 @@
     <module>code/routines</module>
     <module>jobs/process/helloworld_0.1</module>
     <module>jobs/process/hellouniverse_0.1</module>
+    <module>jobs/process/CodePromotion/buildjobsinlists_0.1</module>
   </modules>
   <properties>
     <signer.version>7.2.1</signer.version>

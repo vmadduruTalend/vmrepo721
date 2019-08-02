@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="linux" xmi:id="_YKprMLU7EemVPYAWzvuVIA">
+    <contextParameter comment="" name="homeDirectory" prompt="homeDirectory?" promptNeeded="false" type="id_String" value="/opt/talend7/CI_Builder/tmp/temp_codebase/" xmi:id="_YKprMbU7EemVPYAWzvuVIA"/>
+    <contextParameter comment="" name="snapshotUrl" prompt="snapshotUrl?" promptNeeded="false" type="id_String" value="https://repo.td.com/repository/eim-talend-maven-snapshot/talend/development/testrepo/" xmi:id="_YKprMrU7EemVPYAWzvuVIA"/>
+    <contextParameter comment="" name="releaseUrl" prompt="releaseUrl?" promptNeeded="false" type="id_String" value="https://repo.td.com/repository/eim-talend-maven-release/talend/" xmi:id="_YKprM7U7EemVPYAWzvuVIA"/>
+    <contextParameter comment="" name="downloadFolder" prompt="downloadFolder?" promptNeeded="false" type="id_String" value="downloaded/" xmi:id="_YKprNLU7EemVPYAWzvuVIA"/>
+    <contextParameter comment="" name="tempFolder" prompt="tempFolder?" promptNeeded="false" type="id_String" value="temp/" xmi:id="_YKprNbU7EemVPYAWzvuVIA"/>
+    <contextParameter comment="" name="FileListsLocation" prompt="FileListsLocation?" promptNeeded="false" type="id_String" value="/opt/talend7/CI_Builder/tmp/temp_codebase/deployJobLists_pat.csv" xmi:id="_YKprNrU7EemVPYAWzvuVIA"/>
+    <contextParameter comment="" name="snapshotRepoUrl" prompt="snapshotRepoUrl?" promptNeeded="false" type="id_String" value="https://repo.td.com/repository/eim-talend-maven-snapshot/talend/development/testrepo/" xmi:id="_YKprN7U7EemVPYAWzvuVIA"/>
+    <contextParameter comment="" name="projectName" prompt="projectName?" promptNeeded="false" type="id_String" value="smimani" xmi:id="_YKprOLU7EemVPYAWzvuVIA"/>
+    <contextParameter comment="" name="nexus_username" prompt="nexus_username?" promptNeeded="false" type="id_String" value="PEDPP011talndC" xmi:id="_YKprObU7EemVPYAWzvuVIA"/>
+    <contextParameter comment="" name="nexus_password" prompt="nexus_password?" promptNeeded="false" type="id_Password" value="" xmi:id="_YKprOrU7EemVPYAWzvuVIA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="windows" xmi:id="_YKprO7U7EemVPYAWzvuVIA">
+    <contextParameter comment="" name="homeDirectory" prompt="homeDirectory?" promptNeeded="false" type="id_String" value="C:/talend/7.0.1/" xmi:id="_YKprPLU7EemVPYAWzvuVIA"/>
+    <contextParameter comment="" name="snapshotUrl" prompt="snapshotUrl?" promptNeeded="false" type="id_String" value="https://repo.td.com/repository/eim-talend-maven-snapshot/talend/development/testrepo/" xmi:id="_YKprPbU7EemVPYAWzvuVIA"/>
+    <contextParameter comment="" name="releaseUrl" prompt="releaseUrl?" promptNeeded="false" type="id_String" value="https://repo.td.com/repository/eim-talend-maven-release/talend/" xmi:id="_YKprPrU7EemVPYAWzvuVIA"/>
+    <contextParameter comment="" name="downloadFolder" prompt="downloadFolder?" promptNeeded="false" type="id_String" value="downloaded/" xmi:id="_YKprP7U7EemVPYAWzvuVIA"/>
+    <contextParameter comment="" name="tempFolder" prompt="tempFolder?" promptNeeded="false" type="id_String" value="temp/" xmi:id="_YKprQLU7EemVPYAWzvuVIA"/>
+    <contextParameter comment="" name="FileListsLocation" prompt="FileListsLocation?" promptNeeded="false" type="id_String" value="C:/talend/7.0.1/deployJobLists_pat.csv" xmi:id="_YKprQbU7EemVPYAWzvuVIA"/>
+    <contextParameter comment="" name="snapshotRepoUrl" prompt="snapshotRepoUrl?" promptNeeded="false" type="id_String" value="https://repo.td.com/repository/eim-talend-maven-snapshot/talend/development/testrepo/" xmi:id="_YKprQrU7EemVPYAWzvuVIA"/>
+    <contextParameter comment="" name="projectName" prompt="projectName?" promptNeeded="false" type="id_String" value="TDProj1" xmi:id="_YKprQ7U7EemVPYAWzvuVIA"/>
+    <contextParameter comment="" name="nexus_username" prompt="nexus_username?" promptNeeded="false" type="id_String" value="mitrap7" xmi:id="_YKprRLU7EemVPYAWzvuVIA"/>
+    <contextParameter comment="" name="nexus_password" prompt="nexus_password?" promptNeeded="false" type="id_Password" value="JzYQYs4Dea32YRcO98rmCQ==" xmi:id="_YKprRbU7EemVPYAWzvuVIA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_46130852-62b2-4434-8f69-291f72658e44"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>EC7Ov73pJr37iocTqTrOrUED40T2fM8h9g6Xg/UpcICwKIHfRWcGAsvUVQvdWc/qWmWMIzAOeG9K
+Uu2XrTFGQQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e0e7f646-09ad-4040-b1a3-cc658d325ef5"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>d7PEVGxYfnVRgGp+k1XVWZLpFHEzqmbkvZKRS97AmAJhLftJdr/W/ipZQky8Ahpu4wjC1ZZMRaFD
+DfdRGeTeCg==</DigestValue></Reference></SignedInfo><SignatureValue>SkX30GMVBvqtDZbb+raxeADYxgLDgTUaHsFR+HBRzcY/dvUvpqQEOksY6Iqth0Vo1UKU4SThNSua
+tz1RqVaECp32jZ1AGcEKGb674foXToiV7CjRRuJDIe3tGjv/EC+N9kBH0yqxdwJx6lUi5UEAm8bv
+A3JEzOXeIeQyq7Rh7l052xC9CnUSfMCIRwOeTrcVCpqrVG9PjVafxEAQvBCBA7lFn+zPwibkKlOt
+o8DedkTJjcc3OJGdV/jdYvHFvMq5jCWwqzUtRFSPsfnR67vQfIpUsxMoZlpwxLKaXgFHEaGngGuP
+4tGRGqh+FwlcBF/sM3GVA9Z2hbN+PgEnuJmZ0A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e0e7f646-09ad-4040-b1a3-cc658d325ef5" Target="#_46130852-62b2-4434-8f69-291f72658e44"><Timestamp>2019-08-02 15:37:04</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
