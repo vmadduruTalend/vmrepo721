@@ -14,6 +14,7 @@
     <module>jobs/process/hellouniverse_0.1</module>
     <module>jobs/process/CodePromotion/buildjobsinlists_0.1</module>
     <module>jobs/process/job01_load_context_variables_0.1</module>
+    <module>jobs/process/job02_load_implicit_context_variables_0.1</module>
   </modules>
   <properties>
     <signer.version>7.2.1</signer.version>
