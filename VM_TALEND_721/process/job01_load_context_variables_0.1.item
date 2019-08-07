@@ -8,6 +8,24 @@
     <contextParameter comment="" name="db_username" prompt="db_username?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value="local_user"/>
     <contextParameter comment="" name="resource_file_sensis_db_connection_context" prompt="resource_file_sensis_db_connection_context?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value=""/>
   </context>
+  <context confirmationNeeded="false" name="vm_env_dev">
+    <contextParameter comment="" name="db_host_name" prompt="db_host_name?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="db_host_port" prompt="db_host_port?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value="3306"/>
+    <contextParameter comment="" name="db_instance" prompt="db_instance?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value="local_instance"/>
+    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value="local_pass"/>
+    <contextParameter comment="" name="db_schema" prompt="db_schema?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value="local_sensis"/>
+    <contextParameter comment="" name="db_username" prompt="db_username?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value="local_user"/>
+    <contextParameter comment="" name="resource_file_sensis_db_connection_context" prompt="resource_file_sensis_db_connection_context?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="vm_env_prd">
+    <contextParameter comment="" name="resource_file_sensis_db_connection_context" prompt="resource_file_sensis_db_connection_context?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value=""/>
+    <contextParameter comment="" name="db_host_name" prompt="db_host_name?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="db_host_port" prompt="db_host_port?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value="3306"/>
+    <contextParameter comment="" name="db_instance" prompt="db_instance?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value="local_instance"/>
+    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value="local_pass"/>
+    <contextParameter comment="" name="db_schema" prompt="db_schema?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value="local_sensis"/>
+    <contextParameter comment="" name="db_username" prompt="db_username?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value="local_user"/>
+  </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="32"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
@@ -252,13 +270,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b62e921d-4c1a-433d-877c-00a5433c0155"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>TBuzJh19E8I/jZv/ENtDY3dPNU5H2xv3AgpcmOGif9eXotVsrhspHdtbfq4Dm68f+iZY+bfwEjSY
-Q1Knd6J7aQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_02db5a15-b2a3-4c7d-a08b-f65ad4978644"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>kWc6qTmFPkomYGpUQlfpWYDoLlWUO4nK0CJWSAUiTNbupQvsIoEvbpxVwE7aA2p2yMCGxIDy3npe
-T2BqwqDHBQ==</DigestValue></Reference></SignedInfo><SignatureValue>Iets+ficTzknKaUFNmProKlRwi6XJfIATEpC/bwi+HKyEVeKh/0Upwxb1EnF5mfr/wEQRHsvC6gJ
-BKq/EpGjEh6sSlPCwA2qCM6KmUx3N5UIlMm0817Lm3+MviWtxSkRBqUnoYo55ub67cb0k8gunkUH
-LHq4fC/L5eTZv/OrssIqsnwNRybOUn6rJp0qFDF9IPrzZ5PlUpf4V2K+hwSJdNPtbdsNNiQbgL3R
-aTv4H2DAAgPO9I9sQex1kK9EcNni2G/ontluXerBicTpXlJermPOp6CP9Zw1jyDXJDxCKPWwap6z
-88f+LVRpS8P/LU3aTpEkb7ZKxUH2AxZDvaUk8A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_4bef1080-e58f-48a6-9819-94e5ebd77711"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>HNNww/uOTkKSV1oPhbXzXoHj4n5tvS9AvGmz9NU3tawOVQqobtoOtTjq6TdXQK83Ij7OnuYQSXA2
+e/B48uWjtQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_40938f5c-752e-429a-a2d5-c7ae1be62b7f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>J5EOk4A6Zo4kcx7ENNICtNPvg2DWrdlVHq7/3LSHXwoloazyHDJTo+bFWvDffvoNQzHiW+RBIA6U
+fM+PEz8PNQ==</DigestValue></Reference></SignedInfo><SignatureValue>YySn3hTFMszmMtRbVOZB0JoTehHSSZZybAAwRuDOS8BBOkHlpYrcw3Lvp2TfWNAwXM92NtGD0bkx
+TpO6f+Zmz8yPZAFSzbcGV4zwaBdhlyz8z+883hm28dZtvmtvnzYAVIfnnw9hFiTTcnzAxXoICsXH
+Lo1SEKOyENMaTlmVmQTzzDFTOubGhDjzLRIgqi3sZCjkBV6T2EhMfr4xtExZxrylKVwSYwV2DY8Z
+76nUsLoIKZwkPU8K2qISIjgaTd6fOmttB2vbYmzu8WvA7i3HAPLroDacP4ksiC3Bx2Vafq/GXXX+
+wOkqjZYwlJIslMpO7BQtXkq99JNpOMeP3+KN3w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -280,4 +298,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_02db5a15-b2a3-4c7d-a08b-f65ad4978644" Target="#_b62e921d-4c1a-433d-877c-00a5433c0155"><Timestamp>2019-08-06 18:29:33</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_40938f5c-752e-429a-a2d5-c7ae1be62b7f" Target="#_4bef1080-e58f-48a6-9819-94e5ebd77711"><Timestamp>2019-08-07 04:38:47</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
