@@ -1,18 +1,38 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" name="Default" xmi:id="_S4T1gLh1EemtptzIUTEeKA" xmi:version="2.0">
-  <contextParameter comment="" name="resource_file_sensis_db_connection_context" prompt="resource_file_sensis_db_connection_context?" promptNeeded="false" type="id_String" value="" xmi:id="_7q-90Lh1EemtptzIUTEeKA"/>
-  <contextParameter comment="" name="db_host_name" prompt="db_host_name?" promptNeeded="false" type="id_String" value="localhost" xmi:id="_ryqk0Lh2EemtptzIUTEeKA"/>
-  <contextParameter comment="" name="db_host_port" prompt="db_host_port?" promptNeeded="false" type="id_String" value="3306" xmi:id="_ryqk0bh2EemtptzIUTEeKA"/>
-  <contextParameter comment="" name="db_instance" prompt="db_instance?" promptNeeded="false" type="id_String" value="local_instance" xmi:id="_ryqk0rh2EemtptzIUTEeKA"/>
-  <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" type="id_String" value="local_pass" xmi:id="_ryqk07h2EemtptzIUTEeKA"/>
-  <contextParameter comment="" name="db_schema" prompt="db_schema?" promptNeeded="false" type="id_String" value="local_sensis" xmi:id="_ryqk1Lh2EemtptzIUTEeKA"/>
-  <contextParameter comment="" name="db_username" prompt="db_username?" promptNeeded="false" type="id_String" value="local_user" xmi:id="_ryqk1bh2EemtptzIUTEeKA"/>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_7f114272-f8fb-4c34-819d-8387df246f02"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Fw8nNluPlsID2GIkVM5Ccmn07ErfmzezSpdQXrwrnrO/whUPJZGTtIpJFmAZA1/P8jdQA+taEprT
-V74Dp8szhA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_2d105784-2afc-4087-9c9c-d4fb421b637e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>qQCnO2O9qRFzmgalS52QLBRBC0Ie+7vkJcoNb7x/3BiOHCFgiH/9a1VTMz93Ji+9+Oc8L9S+eu4X
-Jwb9Lnh+vA==</DigestValue></Reference></SignedInfo><SignatureValue>B7D7y4+Y7/SEfmva6FBpjnscKXjWreCD7egEL3ptl/5hB80M5DdFMqGxDStXhePODGKFfwI+LDUf
-Y4fByguUZGOphTX11RxVMs8XpoBw5r7WkG1+hzzmi5783iRh6TFcCe3aF9RzVIaRbdU9bMKr07js
-3EmYXtwBfWnHfhGm9mo+lRZjtqoq8ggPbpPp7iiBzd1oXcJYBE78cE7P+OBJNWmDDgCfuYJxgF1F
-S1yd+vLu4+aXrnDZ85Q0DHUbiEBr5xvHIXIhOusCSb2n6YBAV/DrES4CoECuwkZ7BpH7R7nx2imJ
-x2fFUPwVMlxWVmSx+MHa4lvj9yrP2/e8WSlK6A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_S4T1gLh1EemtptzIUTEeKA">
+    <contextParameter comment="" name="resource_file_sensis_db_connection_context" prompt="resource_file_sensis_db_connection_context?" promptNeeded="false" type="id_String" value="" xmi:id="_7q-90Lh1EemtptzIUTEeKA"/>
+    <contextParameter comment="" name="db_host_name" prompt="db_host_name?" promptNeeded="false" type="id_String" value="localhost" xmi:id="_ryqk0Lh2EemtptzIUTEeKA"/>
+    <contextParameter comment="" name="db_host_port" prompt="db_host_port?" promptNeeded="false" type="id_String" value="3306" xmi:id="_ryqk0bh2EemtptzIUTEeKA"/>
+    <contextParameter comment="" name="db_instance" prompt="db_instance?" promptNeeded="false" type="id_String" value="local_instance" xmi:id="_ryqk0rh2EemtptzIUTEeKA"/>
+    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" type="id_String" value="local_pass" xmi:id="_ryqk07h2EemtptzIUTEeKA"/>
+    <contextParameter comment="" name="db_schema" prompt="db_schema?" promptNeeded="false" type="id_String" value="local_sensis" xmi:id="_ryqk1Lh2EemtptzIUTEeKA"/>
+    <contextParameter comment="" name="db_username" prompt="db_username?" promptNeeded="false" type="id_String" value="local_user" xmi:id="_ryqk1bh2EemtptzIUTEeKA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="vm_env_dev" xmi:id="_OhGcsLjNEemtptzIUTEeKA">
+    <contextParameter comment="" name="resource_file_sensis_db_connection_context" prompt="resource_file_sensis_db_connection_context?" promptNeeded="false" type="id_String" value="" xmi:id="_OhGcsbjNEemtptzIUTEeKA"/>
+    <contextParameter comment="" name="db_host_name" prompt="db_host_name?" promptNeeded="false" type="id_String" value="localhost" xmi:id="_OhGcsrjNEemtptzIUTEeKA"/>
+    <contextParameter comment="" name="db_host_port" prompt="db_host_port?" promptNeeded="false" type="id_String" value="3306" xmi:id="_OhGcs7jNEemtptzIUTEeKA"/>
+    <contextParameter comment="" name="db_instance" prompt="db_instance?" promptNeeded="false" type="id_String" value="local_instance" xmi:id="_OhGctLjNEemtptzIUTEeKA"/>
+    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" type="id_String" value="local_pass" xmi:id="_OhGctbjNEemtptzIUTEeKA"/>
+    <contextParameter comment="" name="db_schema" prompt="db_schema?" promptNeeded="false" type="id_String" value="local_sensis" xmi:id="_OhGctrjNEemtptzIUTEeKA"/>
+    <contextParameter comment="" name="db_username" prompt="db_username?" promptNeeded="false" type="id_String" value="local_user" xmi:id="_OhGct7jNEemtptzIUTEeKA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="vm_env_prd" xmi:id="_OhGcuLjNEemtptzIUTEeKA">
+    <contextParameter comment="" name="resource_file_sensis_db_connection_context" prompt="resource_file_sensis_db_connection_context?" promptNeeded="false" type="id_String" value="" xmi:id="_OhGcubjNEemtptzIUTEeKA"/>
+    <contextParameter comment="" name="db_host_name" prompt="db_host_name?" promptNeeded="false" type="id_String" value="localhost" xmi:id="_OhGcurjNEemtptzIUTEeKA"/>
+    <contextParameter comment="" name="db_host_port" prompt="db_host_port?" promptNeeded="false" type="id_String" value="3306" xmi:id="_OhGcu7jNEemtptzIUTEeKA"/>
+    <contextParameter comment="" name="db_instance" prompt="db_instance?" promptNeeded="false" type="id_String" value="local_instance" xmi:id="_OhGcvLjNEemtptzIUTEeKA"/>
+    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" type="id_String" value="local_pass" xmi:id="_OhGcvbjNEemtptzIUTEeKA"/>
+    <contextParameter comment="" name="db_schema" prompt="db_schema?" promptNeeded="false" type="id_String" value="local_sensis" xmi:id="_OhGcvrjNEemtptzIUTEeKA"/>
+    <contextParameter comment="" name="db_username" prompt="db_username?" promptNeeded="false" type="id_String" value="local_user" xmi:id="_OhGcv7jNEemtptzIUTEeKA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_739c8feb-8dba-46f0-9619-63d894137a44"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>USa8LuAJXbwqIaTzFE8RvRe2LiotjUfQ1Z3QyG39tNA6tL/E648RHE66ZpZINtUTB+qRR+DgbeAz
+o7PtDv9a9w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_45ef3403-819b-4ed8-b77b-a6267470f457"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>zn0CIKgLysb20Or/W3PXBmUlJYuCj5Xi3M2Yh9X960sXDXyxmSsRCf5b/F8AZtxhh6Ltd6fCBQAV
+4REWVx5voA==</DigestValue></Reference></SignedInfo><SignatureValue>ZaxlMebe35ujQPB3MmvfjuvCj++uQCQUo/bGZYrWp7EfG+nywRkW5f05nWYUQmR/+2CRFl0TlbhO
+vSFEmubmXtDTcDiMiHAajyYzMNluNv1KZ+Fa6Mhh+klVm0yF19v185ilCD/Nd+tX/84n3FMIMII+
+ldUNP7j5VXmvM84jdNuGLISWEikCQaqFdib4xOvKq5YjbMamSWC3NkLMQu0XqnTHFefieXx1OUn8
+xmvnVCWZcbqOeeVSWhWljqSiOLIdA5Ffu3XNnB1xms9JwJcTHWnJMkQP5YepP1uVr5Bj0TxYwRrE
+w29VI2ts7XCGsgA+K/YDYAe8cAG8mAxBxo63KA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -34,4 +54,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_2d105784-2afc-4087-9c9c-d4fb421b637e" Target="#_7f114272-f8fb-4c34-819d-8387df246f02"><Timestamp>2019-08-06 18:29:25</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_45ef3403-819b-4ed8-b77b-a6267470f457" Target="#_739c8feb-8dba-46f0-9619-63d894137a44"><Timestamp>2019-08-07 04:38:39</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
