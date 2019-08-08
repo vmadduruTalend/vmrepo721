@@ -1,2 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<softwaredeployment:TdSoftwareSystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:softwaredeployment="http://www.talend.org/cwm/foundation/softwaredeployment/2010" xmi:id="_b4zOYLoREemoboFy2bYe5g" name="MySQL" subtype="MySQL" version="5.7.22-log"/>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:softwaredeployment="http://www.talend.org/cwm/foundation/softwaredeployment/2010">
+  <softwaredeployment:TdSoftwareSystem xmi:id="_b4zOYLoREemoboFy2bYe5g" name="MySQL" subtype="MySQL" version="5.7.22-log"/>
+  <softwaredeployment:TdSoftwareSystem xmi:id="_b_FckLoREemoboFy2bYe5g" name="PostgreSQL" subtype="PostgreSQL" version="9.6.8"/>
+</xmi:XMI>
