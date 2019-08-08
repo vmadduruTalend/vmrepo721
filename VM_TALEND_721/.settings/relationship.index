@@ -435,18 +435,6 @@
     "type" : "joblet"
   },
   "relatedItems" : [ {
-    "id" : "_4uGNkFu9Eemtz5xJhECaPg",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "_OPlewD-TEemwycRlJBo2iA",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "_d0YT4FoiEemn1pSN6bOQig",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "DQTechnical",
     "version" : "Latest",
     "type" : "routine"
