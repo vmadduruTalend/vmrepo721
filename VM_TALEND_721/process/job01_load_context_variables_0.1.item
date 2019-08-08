@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="vm_env_dev" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="db_host_name" prompt="db_host_name?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value="localhost"/>
-    <contextParameter comment="" name="db_host_port" prompt="db_host_port?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value="3306"/>
-    <contextParameter comment="" name="db_instance" prompt="db_instance?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value="local_instance"/>
-    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value="local_pass"/>
-    <contextParameter comment="" name="db_schema" prompt="db_schema?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value="local_sensis"/>
-    <contextParameter comment="" name="db_username" prompt="db_username?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value="local_user"/>
+    <contextParameter comment="" name="db_host_name" prompt="db_host_name?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value=""/>
+    <contextParameter comment="" name="db_host_port" prompt="db_host_port?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value=""/>
+    <contextParameter comment="" name="db_instance" prompt="db_instance?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value=""/>
+    <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value=""/>
+    <contextParameter comment="" name="db_schema" prompt="db_schema?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value=""/>
+    <contextParameter comment="" name="db_username" prompt="db_username?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value=""/>
     <contextParameter comment="" name="resource_file_sensis_db_connection_context" prompt="resource_file_sensis_db_connection_context?" promptNeeded="false" repositoryContextId="_S3_FYLh1EemtptzIUTEeKA" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" name="vm_env_dev">
@@ -270,13 +270,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a18457c4-6d09-4bfd-936c-893f434766d5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>QOk7su1KK35A1bKJfLzFGygnv314yalO8g5227L0ikODjCA0S0cSPuRTb0I1k8KqjU/yPEYCAl2N
-S/dfgStl9Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_9afbeeea-1d8a-4d47-af0c-cb8a3668e8cd"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>jJoUiUXJze5p6WKo/+FP2XFpm0Mx2HI/rR3W0zwwlL6wee7naHoEXxcdfFmUhwXpioDalRI6sTxC
-B0RsRZ13nw==</DigestValue></Reference></SignedInfo><SignatureValue>F3/yvpPOUhhFQ/yazQKbiCAQx5QqrVqyZOXtKbjTDEVTVSdeUX42PO5FpIB/5yd7Ro2khTUIymCA
-aX+P71bv+BQnmyOO4TFT29PmK62v4M9mOKzVWb2E+EEJo1Pegis20d6HBiF+l53ogPxlmCnpfRE9
-aswh42GDrTI6wxo5mzSq9CiBZ+5xx0CN2RXLyXknozAGKnXw/7TAojKz0Exh08mbMGMJmxe+r3PX
-Mw7gK7EyxiD02VwYIPx++V9p8QMgZwlzDoYtcUHEjQAxOG3eU7UMR8OwEoRKZ+KqqFpczrgxyxxk
-YzY2gSB5KrBJhMlKkpt/+EsaS4ewkFTSrsSJ/Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_77ed9a67-6d2a-40da-83f3-403c078a06bf"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>A8jas5aa8lSB3wIg4Xh77IOR9hnEqL6V5Jn228zjvxKIdaeHL0LVba7xGbe4BD58KOJ1Fayeg2hS
+jdWtbtiUVw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_9c4defc4-e086-40d5-a5cf-43342445096d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>gnOg1O/rEAjUQYwbmqijIgmwv8sh7Zp+YUts02isjhmpP1l+d4ELuSe4BiyWfpc5bzoPGyFL9XCe
+lEFozWV3GQ==</DigestValue></Reference></SignedInfo><SignatureValue>edzsFfj/lC9ScovAVSox6LOMk/nrBfN8CCfYEbBWb8v//h/0AaJI6UABO2mLANzYbvU6/ibM1aTj
+lhw4pr1L88Ai++7c0hX9l6a3S7z1c46J10JvaVbbQdV8UbLzqxncd5MmxMQ6SeUkAcpB1cE0dZhG
+Yw6XUPkojpIcxfkpYCVUR/8JAEIn8cQVXwRrcEAvQJWIpBD119FaujMp6jUnlZoiV1pr7Mpc6SRz
+Y4NbodtHF5E9mgb7Ww3mbfGLvCoD9PMeAWI9kv5joE1ysZvcYUfjZH1RZ4Ae/bL3Ag0xyyIwp54p
+UQEDN/w+eSYg4YRlbXZIB8sMZLmkd86vXhQSAQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -298,4 +298,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_9afbeeea-1d8a-4d47-af0c-cb8a3668e8cd" Target="#_a18457c4-6d09-4bfd-936c-893f434766d5"><Timestamp>2019-08-07 05:14:29</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_9c4defc4-e086-40d5-a5cf-43342445096d" Target="#_77ed9a67-6d2a-40da-83f3-403c078a06bf"><Timestamp>2019-08-08 23:55:30</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
