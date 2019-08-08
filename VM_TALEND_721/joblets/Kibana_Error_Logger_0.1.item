@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:model="http://www.talend.com/joblet.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
   <model:JobletProcess defaultContext="Default" jobType="Standard">
     <context confirmationNeeded="false" name="Default">
-      <contextParameter comment="" name="KibanaJson" prompt="KibanaJson?" promptNeeded="false" repositoryContextId="_axvjcGeCEemkypbwW_cxpw" type="id_String" value="{&quot;__id&quot;:&quot;KibanaGUID&quot;,&quot;@type&quot;:&quot;KibanaType&quot;,&quot;@message&quot;:&quot;LogMessage&quot;,&quot;@timestamp&quot;:&quot;KibanaTimeStamp&quot;,&quot;_map&quot;:{},&quot;__level&quot;:5,&quot;__level.dec&quot;:&quot;INFO&quot;}"/>
-      <contextParameter comment="" name="KibanaType" prompt="KibanaType?" promptNeeded="false" repositoryContextId="_axvjcGeCEemkypbwW_cxpw" type="id_String" value="talendalrlogs"/>
-      <contextParameter comment="" name="KibanaUrl" prompt="KibanaUrl?" promptNeeded="false" repositoryContextId="_axvjcGeCEemkypbwW_cxpw" type="id_String" value="https://log.hermanhq.net/logger/"/>
+      <contextParameter comment="" name="KibanaJson" prompt="KibanaJson?" promptNeeded="false" type="id_String" value="{&quot;__id&quot;:&quot;KibanaGUID&quot;,&quot;@type&quot;:&quot;KibanaType&quot;,&quot;@message&quot;:&quot;LogMessage&quot;,&quot;@timestamp&quot;:&quot;KibanaTimeStamp&quot;,&quot;_map&quot;:{},&quot;__level&quot;:5,&quot;__level.dec&quot;:&quot;INFO&quot;}"/>
+      <contextParameter comment="" name="KibanaType" prompt="KibanaType?" promptNeeded="false" type="id_String" value="talendalrlogs"/>
+      <contextParameter comment="" name="KibanaUrl" prompt="KibanaUrl?" promptNeeded="false" type="id_String" value="https://log.hermanhq.net/logger/"/>
+      <contextParameter comment="" name="connection_LeadView_Database" prompt="connection_LeadView_Database?" promptNeeded="false" repositoryContextId="_fdTlsAkyEem2WunSaZP-PQ" type="id_String" value="lead_view"/>
+      <contextParameter comment="" name="connection_LeadView_Schema" prompt="connection_LeadView_Schema?" promptNeeded="false" repositoryContextId="_fdTlsAkyEem2WunSaZP-PQ" type="id_String" value="school_template"/>
+      <contextParameter comment="" name="connection_LeadView_Password" prompt="connection_LeadView_Password?" promptNeeded="false" repositoryContextId="_fdTlsAkyEem2WunSaZP-PQ" type="id_Password" value="jLqjADcQaZRhqD1zJMJwKA=="/>
+      <contextParameter comment="" name="connection_LeadView_Port" prompt="connection_LeadView_Port?" promptNeeded="false" repositoryContextId="_fdTlsAkyEem2WunSaZP-PQ" type="id_String" value="5432"/>
+      <contextParameter comment="" name="connection_LeadView_Server" prompt="connection_LeadView_Server?" promptNeeded="false" repositoryContextId="_fdTlsAkyEem2WunSaZP-PQ" type="id_String" value="talend-dev-db-cluster.cluster-ckavxrr3kdf6.us-east-1.rds.amazonaws.com"/>
+      <contextParameter comment="" name="connection_LeadView_Login" prompt="connection_LeadView_Login?" promptNeeded="false" repositoryContextId="_fdTlsAkyEem2WunSaZP-PQ" type="id_String" value="talend_user"/>
     </context>
     <parameters>
       <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
@@ -717,6 +723,7 @@
       <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
       <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
       <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="postgres_id"/>
+      <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
       <elementParameter field="CHECK" name="SAVE_POINT" show="false" value="false"/>
       <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
       <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -1012,13 +1019,13 @@
     </subjob>
   </model:JobletProcess>
   <TalendProperties:ByteArray/>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_491fb816-9b0d-4dc4-8ac2-c1a9c82eaed2"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>bvXtlPPXY52tXp7xWu2NlhU9rgOTojn5uPj1qICPC6COeoHp3oUeNccMCI4ktVxGIranfJD8WYjx
-2sh/s6B4PQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f67599f2-de71-4ea1-8e1e-dafdc5dc9511"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>hTBsOQxAosVIwbj2+ZIkROl8iyFXmLL3NrJjLK4wgKfXsSm9RDr964SzcSKc/9LN4NEJHcS7PGLJ
-E7EBPaFIww==</DigestValue></Reference></SignedInfo><SignatureValue>ijKtBFt9wp++6/gp+kS/0ESyb/Ceth8jWzRECq2aZXeFG1lbPcNLGlX6DVKyWo6jqyqr3Se/TGgf
-QY/BuIQmsGih/0Zd6Zwq6Cw96s5mA+dHHLdnk9Bc4Bq1a6cvaqF8zlm42NkOMmpLWAjrIBhzpPX1
-OGkG9OjfssAGuQ0MKTFah8HOiUcu0w8ESWv3QttE61g8jR8Eydis7A/tjCUFpo+Jd944Fz0sGjG/
-RKKfChKuprk+WfxGCHGyFix1jYH6vOWl3OZCYgT3x7Wrk/H4h6j0umhw87n5MQkBiBlyD6m5ThWG
-jAmMyqZPG5ZJsqBXJw0LNjP1XxKwif5ViLVgig==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d1f3352d-aed9-4624-ab79-5f4c3a52a5bf"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>D/rDUy/Ptp4TMMfQQynGAM2k6LVPzspI7Ym2n0MtfzQp4EVHsDhoxwTrpJUW0kY7FgVykSitkynu
+dBKtZ6rCaQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_71ac73a6-4c57-440f-bb7d-5a590dfa32f8"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>6WXJsLTvk7HpFAKfWMQrwANb3bBhYYVA4WyoovfB9bKUb7095Rjba1OPudNxRMzoYx4ndNUwMB2K
+Q3d3VIsOsA==</DigestValue></Reference></SignedInfo><SignatureValue>lushC2osa8l6SkXsDwUtotEpd4uXkmYUVfM925v2Fk1efB98FfMGhb5dqbGgDNq6wgMnLjcXGZhl
++NeqM4fTBkFSOheKRvRcvEhUi+SsrDgwqvWWi/pA2wwFwAWEh4XDtrgD6LnrLpsVc0NHrhTGg8nO
+iwSGIplQ6dQAlj47sAeKZV9JDjUh8bMRYsxMfQD+g0n+/UG85mCLNksQy2H75RZjQZkr1pdqkjC8
+pnPtZRCXeQMn5V9Ws202NB4U5CK6VpnxMbREVLlgvdT0dWyWdEIWhqrhTgzMOGV1V3eiPFiwDPvh
+W43HFmqYpKikbnR66z/TXmkoZPcP07ix/mg/FA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -1040,4 +1047,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f67599f2-de71-4ea1-8e1e-dafdc5dc9511" Target="#_491fb816-9b0d-4dc4-8ac2-c1a9c82eaed2"><Timestamp>2019-08-08 18:33:59</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_71ac73a6-4c57-440f-bb7d-5a590dfa32f8" Target="#_d1f3352d-aed9-4624-ab79-5f4c3a52a5bf"><Timestamp>2019-08-08 18:36:41</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
