@@ -12,19 +12,19 @@
     <contextParameter comment="" name="connection_LeadViewOperations_Port" prompt="connection_LeadViewOperations_Port?" promptNeeded="false" repositoryContextId="_4uGNkFu9Eemtz5xJhECaPg" type="id_String" value="5432"/>
     <contextParameter comment="" name="connection_LeadViewOperations_Schema" prompt="connection_LeadViewOperations_Schema?" promptNeeded="false" repositoryContextId="_4uGNkFu9Eemtz5xJhECaPg" type="id_String" value="operations"/>
     <contextParameter comment="" name="connection_LeadViewOperations_Server" prompt="connection_LeadViewOperations_Server?" promptNeeded="false" repositoryContextId="_4uGNkFu9Eemtz5xJhECaPg" type="id_String" value="talend-dev-db-cluster.cluster-ckavxrr3kdf6.us-east-1.rds.amazonaws.com"/>
-    <contextParameter comment="" name="client_id" prompt="client_id?" promptNeeded="false" repositoryContextId="_ZMwWgF_KEemDAPaL919Cbg" type="id_String" value="0a677e78-f09c-4d8a-b2dc-517821427522"/>
-    <contextParameter comment="" name="client_secret" prompt="client_secret?" promptNeeded="false" repositoryContextId="_ZMwWgF_KEemDAPaL919Cbg" type="id_String" value="10YsVGAZleiEFB5CuoJxkiJAkPS6jHwe"/>
+    <contextParameter comment="" name="client_id" prompt="client_id?" promptNeeded="false" repositoryContextId="_ZMwWgF_KEemDAPaL919Cbg" type="id_String" value="da6016d0-d2f8-4f68-bbe0-a1ec8c8cc5d6"/>
+    <contextParameter comment="" name="client_secret" prompt="client_secret?" promptNeeded="false" repositoryContextId="_ZMwWgF_KEemDAPaL919Cbg" type="id_String" value="FOrA79AeoDrqlRFVwC58BE8K0TY9jEzk"/>
     <contextParameter comment="" name="db_database" prompt="db_database?" promptNeeded="false" repositoryContextId="_ZMwWgF_KEemDAPaL919Cbg" type="id_String" value="lead_view"/>
     <contextParameter comment="" name="db_login" prompt="db_login?" promptNeeded="false" repositoryContextId="_ZMwWgF_KEemDAPaL919Cbg" type="id_String" value="talend_user"/>
     <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="_ZMwWgF_KEemDAPaL919Cbg" type="id_String" value="talend_pass1"/>
     <contextParameter comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="_ZMwWgF_KEemDAPaL919Cbg" type="id_String" value="5432"/>
-    <contextParameter comment="" name="db_schema" prompt="db_schema?" promptNeeded="false" repositoryContextId="_ZMwWgF_KEemDAPaL919Cbg" type="id_String" value="wsu_grad_4j"/>
-    <contextParameter comment="" name="db_server" prompt="db_server?" promptNeeded="false" repositoryContextId="_ZMwWgF_KEemDAPaL919Cbg" type="id_String" value="talend-dev-db-cluster.cluster-ckavxrr3kdf6.us-east-1.rds.amazonaws.com"/>
+    <contextParameter comment="" name="db_schema" prompt="db_schema?" promptNeeded="false" repositoryContextId="_ZMwWgF_KEemDAPaL919Cbg" type="id_String" value="bryan_adult_5as"/>
+    <contextParameter comment="" name="db_server" prompt="db_server?" promptNeeded="false" repositoryContextId="_ZMwWgF_KEemDAPaL919Cbg" type="id_String" value="talend-qa-db-cluster.cluster-ckavxrr3kdf6.us-east-1.rds.amazonaws.com"/>
     <contextParameter comment="" name="lead_activity_tracking_fields" prompt="lead_activity_tracking_fields?" promptNeeded="false" repositoryContextId="_ZMwWgF_KEemDAPaL919Cbg" type="id_String" value="1,2,3,6,7,8,10,11,12,25,27,32,37,38,47,104,108,110,131,147"/>
     <contextParameter comment="" name="lead_tracking_fields" prompt="lead_tracking_fields?" promptNeeded="false" repositoryContextId="_ZMwWgF_KEemDAPaL919Cbg" type="id_String" value="address,address_2,age,applicant,art_craft,avid_reader,birth_day,birth_month,birth_year,bounceDate,campus,career_minded,cell_txt_opt_in,children,children_interests,city,clicked_apply_button,clicked_apply_button_date,clicked_apply_button_time,contact_date,contact_ind,contact_time,content_give,content_give_date,contribute_political,contributors,country,custom_school_enroll_term,dateOfBirth,deferral,deferral_date,deferral_time,display_ad_deferral,display_ad_deferral_date,display_ad_deferral_time,doit_yourselfer,drop_nbr,email,enroll_term_intended,ethnicity,facebook_lead,facebook_lead_date,facebook_lead_program,facebook_lead_time,FemaleMerchBuyer,filler1,filler2,filler3,filler4,filler5,firstName,fitness,food,gardening,gpa_nbr,grad_year,great_outdoor,health_living,high_tech_leader,hobbyists,income,inquiry,inquiry_source,intended_program,intended_program_type,internet_buyer,leadGenAudience,leadRole,leadScore,leadSource,leadStatus,lead_gen_apply,lead_gen_apply_date,lead_gen_apply_time,lead_gen_inquiry,lead_gen_inquiry_date,lead_gen_inquiry_time,list_name,list_source_file_desc,luxury_life,mainPhone,MaleMerchBuyer,gender,married,middleName,mobilePhone,movie,music,online_education,opened_ind,open_date,open_time,opportunity_seeker,opt_out,opt_out_reason,personality_type,pets,phone,phone_no_cell,postalCode,process_file_name,program_group,responded_ind,respondercampaignada,respondercampaignapply,respondercampaigngive,respondercampaignsurvey,respondercontentada,respondercontentapply,respondercontentgive,respondercontentlg,respondercontentsurvey,respondermediumada,respondermediumapply,respondermediumgive,respondermediumsurvey,respondersegmentada,respondersegmentapply,respondersegmentgive,respondersegmentsurvey,respondersourceada,respondersourceapply,respondersourcegive,respondersourcesurvey,respondertermada,respondertermapply,respondertermgive,respondertermsurvey,respondertestversionapply,respondertestversiongive,respondertestversionsurvey,responder_campaign,responder_campaign_lg,responder_content,responder_content_v2,responder_medium,responder_medium_lg,responder_segment,responder_segment_lg,responder_source,responder_source_lg,responder_term,responder_term_lg,responder_test_version,responder_test_version_ada,responder_test_version_lg,response_date,response_time,school_id,school_intended_enroll_term,school_intended_program,school_unsubscribe,seed,self_improvement,sporting_life,sports,started_applicant,state,subseg_name,survey,survey_date,technology,tester,test_segment,travel,travel_business,travel_vacation,viewed_search_display_ad_page,viewed_search_page,sms_send,unsubscribedReason,id,lastName,mktoAcquisitionDate,viewed_search_page_date,createdAt,unsubscribed,viewed_search_page_time,updatedAt,SMS_Send_Time,deferral_period,prospect_obstacle,prospect_reason"/>
-    <contextParameter comment="" name="rest_endpoint" prompt="rest_endpoint?" promptNeeded="false" repositoryContextId="_ZMwWgF_KEemDAPaL919Cbg" type="id_String" value="https://732-ZTS-214.mktorest.com"/>
-    <contextParameter comment="" name="school_id" prompt="school_id?" promptNeeded="false" repositoryContextId="_ZMwWgF_KEemDAPaL919Cbg" type="id_Integer" value="1182"/>
-    <contextParameter comment="" name="school_name" prompt="school_name?" promptNeeded="false" repositoryContextId="_ZMwWgF_KEemDAPaL919Cbg" type="id_String" value="Washington State University -  Graduate Programs"/>
+    <contextParameter comment="" name="rest_endpoint" prompt="rest_endpoint?" promptNeeded="false" repositoryContextId="_ZMwWgF_KEemDAPaL919Cbg" type="id_String" value="https://623-KSG-142.mktorest.com"/>
+    <contextParameter comment="" name="school_id" prompt="school_id?" promptNeeded="false" repositoryContextId="_ZMwWgF_KEemDAPaL919Cbg" type="id_Integer" value="1224"/>
+    <contextParameter comment="" name="school_name" prompt="school_name?" promptNeeded="false" repositoryContextId="_ZMwWgF_KEemDAPaL919Cbg" type="id_String" value="Bryan College Adult Degree Programs"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="480"/>
@@ -80,7 +80,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/dev/Talend-Studio-20181026_1147-V7.1.1/workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;/Applications/Talend721/studio/studio/workspace/cloud/workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -171,6 +171,7 @@
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
     <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" show="false" value="audit_key"/>
     <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
@@ -308,6 +309,7 @@
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="AUTO_COMMIT" value="true"/>
     <elementParameter field="TEXT" name="LABEL" value="SchoolConnection"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -348,6 +350,7 @@
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
     <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" show="false" value="audit_key"/>
     <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
@@ -481,6 +484,7 @@
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
     <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" show="false" value="exec_stop_dt"/>
     <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
@@ -584,6 +588,7 @@
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="AUTO_COMMIT" value="true"/>
     <elementParameter field="TEXT" name="LABEL" value="OperationsConnection"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -619,6 +624,7 @@
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
     <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" show="false" value=""/>
     <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
@@ -663,6 +669,7 @@
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="postgres_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
@@ -762,7 +769,7 @@
   <note opaque="true" posX="-352" posY="288" sizeHeight="65" sizeWidth="385" text="Main Job"/>
   <note opaque="true" posX="-224" posY="576" sizeHeight="97" sizeWidth="385" text="Postjob:&#13;&#10;Setting up final target count and audit table&#13;&#10;Closing connection"/>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" show="false" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
@@ -793,7 +800,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" show="false" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
@@ -863,13 +870,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_636428b4-9f25-41bf-a07b-f8372f5b1a71"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>jARA5b1dGgOuU0HbxkKPfo2oLj/F/1b9QEvndyFDBRFGUColT4z+7MvEW3CzPXzSqY5FnC3juvT2
-YIJzyZvnkA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4ff59f3c-b870-4fa5-9ecd-af18dabc7ef6"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>LRLk2gyEWyjU+3tLjUHfOVA0IFZeWwu58zUIwOrKMoeQrCaeXcrkb2WiRxdO3xoh4xg3uPwX3EFf
-7mXGv44TNQ==</DigestValue></Reference></SignedInfo><SignatureValue>pRdw2S5GUe9B+hVNa48Q509FsZU04NJkZKFnRHYAPFB7YqmJOXvkEE2e42HRfXR+uSZ9Thm8GHSU
-IRC2/+aR/AZHbmIpWlhPgeBfkwJHzIsOdhikq08XrFSIvjlwxCXtnhUdd0GEdcS9fE2oo2HyL6ZU
-j4W1WjgwxkhxvUXtTaKqvIf+7uUfUXlbAEDaZB0ItfI2XN9M4G5lgXZ9XXg5p0g2ykoaA9aVJAR+
-NKJ9VJCFptG5SdCmLK/vvWnW+t9k66dFByLuOniuoufR5nj8+jzSsQYS/fTo8hJZRYqMCG3+qV0G
-xDEHR5NrrnQlbC0lJeZSri9YGjzNF3kYxYFqrA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a67c0685-f20a-4843-a7d1-b36688c88a10"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>TmuvdmIru+IEDUxspZlMT3hQ0NaU2hBQnUT9cZ75m2tl36koEW02lVc0XejkPmEF5EsylEJ5Lbbz
+CJjcTtvOVA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f50a45c9-143f-4370-b405-89e1f7b73f77"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>C6KrTTbILQJFN4ZJNGRzzyrgnBeVpl1AAGyom1qo2fgihyv9yGZFwfa6cBPVhpJiK6IiN2RcwDDP
+mLkVWXuG2Q==</DigestValue></Reference></SignedInfo><SignatureValue>gBc1os6EyjpsW2kAqmeFkfSGIG1emsjVgecKHkhJKiBxX+h5zrVAfqA7b6iJG8dvuTEH6/3UEg/u
+VqlpUJQYQgJspqEaOu/tauBpL4zGEHCY/Jen7Jg+9rS6K/Lvpx2l5zne0rXQCoEDPzsKcGAcTxaU
+aL+1RLF4ox+MoajM31tuGZn+v+sWT7WWeh1s2puf+amkwbBkCCgL0Fs/U6fBLsIxmKBlCKbMqxew
+APKreNqC3gD104/Gyi94dMl153zYcXUKh4tYbvgURNuFWmfLv/Bn+wWtl6MHta8Re8oBBPlyxBa9
+bwo6BMUiUYGaSfyqpYNY+3q76cZET74ZkmDZfg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -891,4 +898,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4ff59f3c-b870-4fa5-9ecd-af18dabc7ef6" Target="#_636428b4-9f25-41bf-a07b-f8372f5b1a71"><Timestamp>2019-08-08 19:25:51</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f50a45c9-143f-4370-b405-89e1f7b73f77" Target="#_a67c0685-f20a-4843-a7d1-b36688c88a10"><Timestamp>2019-08-08 23:55:14</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
