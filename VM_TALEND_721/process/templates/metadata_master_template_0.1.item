@@ -172,12 +172,14 @@
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="context.mysqllocal_Login"/>
     <elementParameter field="PASSWORD" name="PASS" show="false" value="8pW6Nmy2kufG6IPh+AKeA6q+tFYXslH3V905oYgo2AU="/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_NJEqkLoREemoboFy2bYe5g - talend_jobs"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;talend_jobs&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  `talend_jobs`.`JobID`, &#10;  `talend_jobs`.`JobName`, &#10;  `talend_jobs`.`BusinessAreaName`, &#10;  `talend_jobs`.`JobAuthorDomainID`, &#10;  `talend_jobs`.`Notes`, &#10;  `talend_jobs`.`LastUpdateDate`&#10;FROM `talend_jobs`&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  `talend_jobs`.`jobid`, &#10;  `talend_jobs`.`jobname`, &#10;  `talend_jobs`.`businessareaname`, &#10;  `talend_jobs`.`jobauthordomainid`, &#10;  `talend_jobs`.`notes`, &#10;  `talend_jobs`.`update_datetime`&#10;FROM `talend_jobs`&quot;"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -188,38 +190,38 @@
     <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
     <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
     <elementParameter field="TABLE" name="TRIM_COLUMN">
-      <elementValue elementRef="SCHEMA_COLUMN" value="JobID"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="jobid"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="JobName"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="jobname"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="BusinessAreaName"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="businessareaname"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="JobAuthorDomainID"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="jobauthordomainid"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Notes"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="notes"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="LastUpdateDate"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="update_datetime"/>
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LABEL" value="Talend_Jobs"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="talend_jobs" name="tDBInput_1">
-      <column comment="" key="true" length="10" name="JobID" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+      <column comment="" key="true" length="10" name="jobid" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="255" name="JobName" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="255" name="jobname" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="255" name="BusinessAreaName" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="255" name="businessareaname" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="255" name="JobAuthorDomainID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="255" name="jobauthordomainid" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="255" name="Notes" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="255" name="notes" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="19" name="LastUpdateDate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+      <column comment="" key="false" length="26" name="update_datetime" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <additionalProperties key="Comment" value=""/>
@@ -897,13 +899,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f3549763-45d1-42b9-8f55-be68fbe9b03c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>o+AoxXKJkKmVKf8lNiY/ZIyzWPoCGuwn1QJsU0cHJSOfE5sTMY2MN8awvGQImcRZs+IrqgmcxjEq
-j11E0NPkug==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ff858f8e-d0af-450d-832c-92a218ca2b8e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>CuXnHHVQ9yVM5xcVLw73Lrezr0CnpCSPule8N+sfibqsduztnkJcNKWFORq44Bw7C5neMgCzQXqW
-taq5YzyiZA==</DigestValue></Reference></SignedInfo><SignatureValue>hT2zkK5nTRA0apKpqmwCkeXHncLEQd6P8j5gNkLsLksUCbKiBDdiEqLeUhMeoqDZIKjuqsExdFgp
-XkN2kkgLMCuWtUBGz/zUH5IZRV7Ik1RWr+2cUkJA+HH/vt0lsoIJ7CWi1rGLU4nd2gsW6uwCm1q0
-17F753FfufNKu/4LZzhWwUbQfGte30WWlv54RkGnEXxgNT3SLSTLfccqNJGgAEUtvUZudqmCTVhb
-RIcGFBEDE5tMbq3Qe7jeVFZ8umJWeZ2kVOWXCn8XHPl9kZKIZPefAwy+3V0bSsjl9B6G5oY9bkt6
-BcYnN7C4q0JNegSFfsYPniTbmKdYs5O31/d4NQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_dc8ad259-dc3c-4cb2-977f-34c140d022c3"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>j3ar2Tni8Pn4g6+bRWQEuov0+AxcoLEDBwbZKp3I+zXYaD9/0zzunycrAFI7FjmTyseBlIz4IHSj
+kuZOSfqO3Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_bfc55edc-18de-4673-892b-7e7820406846"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>71e6FMm+5PgOn2RYJtVW4PnKrzRu/pHq7VXMtvsv7FRR9pf4LKUsCprsSFz7gjj0DlW+C77AukAP
+fun7qB7WAA==</DigestValue></Reference></SignedInfo><SignatureValue>Pw0IsvWQutXVKo4Y72Xqk4gdH5Sb8XBobWGGOmWY8D+A+MVnJ5xcVuvuKXvhtniWWz70/vvodPL3
+MFvrlx7h0zjVCmhr0wYDzsSnjUITOTSijLeMD1UCiZIS5PYp1L+n5Bdml/lWIkZDWLFG260JF05C
+vayxs90AaMFj0PsqR6+eHupSoF3aPtzEzg0L0/s84szwssgOOO2rEW0WvrHxTFXsshyx1opFRQV+
+/Q6J4HOVE8NEPLL8UY4GX6adz4DpZZ/DNdw5B5ocsgXarH96A8Hy6ULzMvBRg+tdvwHIKAvuVvUQ
+utSsZtqSxGCXdHn3qMHKUClazMlB5BzPHjHpTA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -925,4 +927,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ff858f8e-d0af-450d-832c-92a218ca2b8e" Target="#_f3549763-45d1-42b9-8f55-be68fbe9b03c"><Timestamp>2019-08-09 06:22:23</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_bfc55edc-18de-4673-892b-7e7820406846" Target="#_dc8ad259-dc3c-4cb2-977f-34c140d022c3"><Timestamp>2019-08-09 06:24:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
