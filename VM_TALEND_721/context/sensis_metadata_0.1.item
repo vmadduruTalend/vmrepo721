@@ -6,6 +6,7 @@
     <contextParameter comment="" name="connection_metadata_instance" prompt="connection_metadata_instance?" promptNeeded="false" type="id_String" value="development" xmi:id="_rpi_9Lo1EemoboFy2bYe5g"/>
     <contextParameter comment="" name="connection_metadata_username" prompt="connection_metadata_username?" promptNeeded="false" type="id_String" value="talend" xmi:id="_rpi_9bo1EemoboFy2bYe5g"/>
     <contextParameter comment="" name="connection_metadata_schema" prompt="connection_metadata_schema?" promptNeeded="false" type="id_String" value="metadata" xmi:id="_rpi_9ro1EemoboFy2bYe5g"/>
+    <contextParameter comment="" name="resource_file_sensis_db_connection_context" prompt="resource_file_sensis_db_connection_context?" promptNeeded="false" type="id_String" value="" xmi:id="_ZXD_4LpdEemoboFy2bYe5g"/>
   </talendfile:ContextType>
   <talendfile:ContextType confirmationNeeded="false" name="vm_env_dev" xmi:id="_rpi_97o1EemoboFy2bYe5g">
     <contextParameter comment="" name="connection_metadata_host" prompt="connection_metadata_host?" promptNeeded="false" type="id_String" value="" xmi:id="_rpi_-Lo1EemoboFy2bYe5g"/>
@@ -14,6 +15,7 @@
     <contextParameter comment="" name="connection_metadata_instance" prompt="connection_metadata_instance?" promptNeeded="false" type="id_String" value="" xmi:id="_rpi_-7o1EemoboFy2bYe5g"/>
     <contextParameter comment="" name="connection_metadata_username" prompt="connection_metadata_username?" promptNeeded="false" type="id_String" value="" xmi:id="_rpi__Lo1EemoboFy2bYe5g"/>
     <contextParameter comment="" name="connection_metadata_schema" prompt="connection_metadata_schema?" promptNeeded="false" type="id_String" value="" xmi:id="_rpi__bo1EemoboFy2bYe5g"/>
+    <contextParameter comment="" name="resource_file_sensis_db_connection_context" prompt="resource_file_sensis_db_connection_context?" promptNeeded="false" type="id_String" value="" xmi:id="_ZXD_4bpdEemoboFy2bYe5g"/>
   </talendfile:ContextType>
   <talendfile:ContextType confirmationNeeded="false" name="vm_env_prd" xmi:id="_rpi__ro1EemoboFy2bYe5g">
     <contextParameter comment="" name="connection_metadata_host" prompt="connection_metadata_host?" promptNeeded="false" type="id_String" value="" xmi:id="_rpi__7o1EemoboFy2bYe5g"/>
@@ -22,14 +24,15 @@
     <contextParameter comment="" name="connection_metadata_instance" prompt="connection_metadata_instance?" promptNeeded="false" type="id_String" value="" xmi:id="_rpjAAro1EemoboFy2bYe5g"/>
     <contextParameter comment="" name="connection_metadata_username" prompt="connection_metadata_username?" promptNeeded="false" type="id_String" value="" xmi:id="_rpjAA7o1EemoboFy2bYe5g"/>
     <contextParameter comment="" name="connection_metadata_schema" prompt="connection_metadata_schema?" promptNeeded="false" type="id_String" value="" xmi:id="_rpjABLo1EemoboFy2bYe5g"/>
+    <contextParameter comment="" name="resource_file_sensis_db_connection_context" prompt="resource_file_sensis_db_connection_context?" promptNeeded="false" type="id_String" value="" xmi:id="_ZXD_4rpdEemoboFy2bYe5g"/>
   </talendfile:ContextType>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6250795f-c6b9-4587-aaad-35c4e2614086"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>fwCnzXM+JJz3ca1hbbGacZLzOzQywL1MC4XGIUIWs3ftQYP6/rEVJJZsZNOCLrnzanpQxtn7heW8
-OyaK6jLqJA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_fb9d41c6-b834-42b9-9e10-720493fb5926"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>XCRum4/rCrWm5c/8jxkD0TO8hqwM/jdrWkSM5KtHP/SA3rnq6VSh+IBvfdm0syqg+df3h8Fu2FgP
-y0P883ELYA==</DigestValue></Reference></SignedInfo><SignatureValue>NCDT9p28XkEKIEBbxTMgWuUB7dXNT3mPgaSXvNbKDCB75jRHAmAz4dPNcpWnYMbGJGxx4dJmCqOh
-P7z7snxJemr1yfwozf6FIjrAssr/hS8ElSKYQHEXtdlhLIvQj32ery8K9SpUYSSKMA9mZqkVX6oC
-t5hTEe+5FwUr6k1xIk7TUVwFXOaNty/kavbLrNpNJZPGL2Q6PinaUNij0ZSVbHsyF7uuxdNgO/wm
-AMR+Arbt0fHmWsQ3HvftyjnLWtC3TKQoDa2vWG1ihHjncPNM/g4Oh/RrgJVYwD/ZDWfrH9Qf8oY8
-tFhX5sdTe5ncoSULKhSRv8f1G717Ow5Opl9D1A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9b042d35-0ba7-49cc-9ae1-9ae20de7f091"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>WsHurb2XjaVREA6YvxpK5gvz9cTvdL1oAux6CFLBEG5h8gBb4OkcMfg3PssVkWj2VTNJqAQ4jMJ6
+Ypv7Ik5WTQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_bed9db8f-3495-4dc4-bb06-0142b4750490"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>UqLriKFrww4z9s9zl3WhAqp1fDaOqxISHG44hwl22pr4gcegg+W+JESKDaNkGcyNk8QOS9SmfvSN
+s4pvQoIsYg==</DigestValue></Reference></SignedInfo><SignatureValue>GMukm8dyOhlXjq/83U3GkLqSvCFbJ/EsUfuOWBhyG3FvJhE7qDDT8lqbjhe0i7MNTp9r935brYPV
+SEEDe0UyCP5PSMF1YxTnT1nFqz6GhVLMitmW4jap26Il8giep4xMgH3JVOlneJU89m+RyNSnpA4L
+SWwKSneZBXbv/sxxmZ5oryY/lnYtFQDtgpjtzzaXKz4kGeI5MmC0iGSDshUqXRpu7YXWFZ5gtRiD
+HieoDqcXUMqTxlbPVmgrNOSaNTWgchLnKYh7mSqRtQtsKV/tjnjzLrKdLhL4TQF+u0yBLwZMb4Sx
+3BR0DpO8QapSytqUlUYY51P7cJuLL/W9WWg/lg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -51,4 +54,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_fb9d41c6-b834-42b9-9e10-720493fb5926" Target="#_6250795f-c6b9-4587-aaad-35c4e2614086"><Timestamp>2019-08-09 03:53:52</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_bed9db8f-3495-4dc4-bb06-0142b4750490" Target="#_9b042d35-0ba7-49cc-9ae1-9ae20de7f091"><Timestamp>2019-08-09 04:23:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
