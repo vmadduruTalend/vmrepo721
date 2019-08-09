@@ -2,32 +2,38 @@
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="runid" prompt="runid?" promptNeeded="false" type="id_Integer" value=""/>
     <contextParameter comment="" name="connection_metadata_host" prompt="connection_metadata_host?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value="ec2-3-83-249-225.compute-1.amazonaws.com"/>
+    <contextParameter comment="" name="rundate" prompt="rundate?" promptNeeded="false" type="id_Date" value=""/>
     <contextParameter comment="" name="connection_metadata_instance" prompt="connection_metadata_instance?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value="development"/>
     <contextParameter comment="" name="connection_metadata_password" prompt="connection_metadata_password?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value="talend2019"/>
     <contextParameter comment="" name="connection_metadata_port" prompt="connection_metadata_port?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value="3306"/>
     <contextParameter comment="" name="connection_metadata_schema" prompt="connection_metadata_schema?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value="metadata"/>
     <contextParameter comment="" name="connection_metadata_username" prompt="connection_metadata_username?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value="talend"/>
     <contextParameter comment="" name="resource_file_sensis_db_connection_context" prompt="resource_file_sensis_db_connection_context?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value="/Users/vijaymadduru/Downloads/Sensis/resources/sensis_db_connection_context.csv"/>
+    <contextParameter comment="" name="checkpoint" prompt="checkpoint?" promptNeeded="false" type="id_Integer" value=""/>
   </context>
   <context confirmationNeeded="false" name="vm_env_dev">
     <contextParameter comment="" name="runid" prompt="runid?" promptNeeded="false" type="id_Integer" value=""/>
     <contextParameter comment="" name="connection_metadata_host" prompt="connection_metadata_host?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value=""/>
+    <contextParameter comment="" name="rundate" prompt="rundate?" promptNeeded="false" type="id_Date" value=""/>
     <contextParameter comment="" name="connection_metadata_instance" prompt="connection_metadata_instance?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value=""/>
     <contextParameter comment="" name="connection_metadata_password" prompt="connection_metadata_password?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value=""/>
     <contextParameter comment="" name="connection_metadata_port" prompt="connection_metadata_port?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value=""/>
     <contextParameter comment="" name="connection_metadata_schema" prompt="connection_metadata_schema?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value=""/>
     <contextParameter comment="" name="connection_metadata_username" prompt="connection_metadata_username?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value=""/>
     <contextParameter comment="" name="resource_file_sensis_db_connection_context" prompt="resource_file_sensis_db_connection_context?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value=""/>
+    <contextParameter comment="" name="checkpoint" prompt="checkpoint?" promptNeeded="false" type="id_Integer" value=""/>
   </context>
   <context confirmationNeeded="false" name="vm_env_prd">
     <contextParameter comment="" name="runid" prompt="runid?" promptNeeded="false" type="id_Integer" value=""/>
     <contextParameter comment="" name="connection_metadata_host" prompt="connection_metadata_host?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value=""/>
+    <contextParameter comment="" name="rundate" prompt="rundate?" promptNeeded="false" type="id_Date" value=""/>
     <contextParameter comment="" name="connection_metadata_instance" prompt="connection_metadata_instance?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value=""/>
     <contextParameter comment="" name="connection_metadata_password" prompt="connection_metadata_password?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value=""/>
     <contextParameter comment="" name="connection_metadata_port" prompt="connection_metadata_port?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value=""/>
     <contextParameter comment="" name="connection_metadata_schema" prompt="connection_metadata_schema?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value=""/>
     <contextParameter comment="" name="connection_metadata_username" prompt="connection_metadata_username?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value=""/>
     <contextParameter comment="" name="resource_file_sensis_db_connection_context" prompt="resource_file_sensis_db_connection_context?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value=""/>
+    <contextParameter comment="" name="checkpoint" prompt="checkpoint?" promptNeeded="false" type="id_Integer" value=""/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
@@ -281,13 +287,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_1eaf1dc4-9252-498b-a700-a608f4aa3231"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>OAXYDxY4C3SS7qZ9pGHHLe23FR2cKaM/Jf61mCqlQWt2Da5+k+KmTxCCB0wBztM/UG+zB0sPHkQp
-vdLIhvVCMQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ef2075e2-705a-41b4-8512-939b9a3c5e37"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>IqtGgYXoeQB6nCBr+WTP4pihxUdbP6ra7R4wXB1b+2YkKmIMvAyp462HHq2+uQEzZAWUWyGONq9V
-RhpZqsDukg==</DigestValue></Reference></SignedInfo><SignatureValue>cU78rT5NCfhxnHDEKCOQQQ4X1D6x720wIKS9gdKPt5nTKnTALiytAxc59qd5yAzLFq92xuEK+mop
-8Eg70e2csWnzrU8SisdDDZmkF42idvJXJnYxOzRUUrbPWppVlinuUZlKlok518FH24t8NoIINWit
-EPvNK3EiNpElDDolbqXsLZCwOOsy7GKPwWazZh3B/n3Fto/Ctduh1jlMA8+fy8QHOSFG9APuTjJp
-YabIJr+r19JrwRuAI58qa68KY8EX+9T9nLLvehBv7aKrzUPnsDKnn1cbnDkc7hSpCu6VRnDXM79K
-bfHllqfCHjBFg1sDVVBHoF5xH/k81T+naQ4N/g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_57915228-dcfa-4940-a497-d44f9b2bbbcc"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>6W3PgQ8AIdzaPNZAddGB+dhmaFcFMwaF7e2JN/7IlbKDt2+UzBv7INV2IxBCV6qolYMB/k40usKs
+jcT9neDQYA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_9ae76f70-a1c8-4e12-a9fa-f23ab5384ee4"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>TSn0oHhaIAh0JRyys5ZD6eGrNDN47MjlhXh+WpyLi1ENS3PdugnO4T96I+fbn1vfLXG2Z5j+EWro
+CcApmZdM8A==</DigestValue></Reference></SignedInfo><SignatureValue>IV9RdcNIzu5zV2lDQ5ylpe0NbDbpc0Sr5GGU4TgHCH7vKieRzovMLLcJlSv5BK/s2VGkzeUYEtno
+PFXXLk15TF81kcDpC334Zz4eMTljSJVMOH3NvXJy6AMoF/5DQDCSNpWbE8XE5ogZQjg2PslDVOyk
+MAsUyQmQ3eOOXgpJbtBQ4IIxWVeZTZuMPLWs9Ibjs3VTy0dxFAIpgdURw7RCQmFAHU124AzNRvaN
+noxzRDK3maMJBclN8nv1Vr7+Pyj8iAIzYFEe3cbPqnZxzT+EB0zK7qJhkt127odpPddZj8mc3AdD
+HbjNKQ5xNNWQDoU7FSDE59nuC4MV4qRAYHKrVA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -309,4 +315,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ef2075e2-705a-41b4-8512-939b9a3c5e37" Target="#_1eaf1dc4-9252-498b-a700-a608f4aa3231"><Timestamp>2019-08-09 22:49:03</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_9ae76f70-a1c8-4e12-a9fa-f23ab5384ee4" Target="#_57915228-dcfa-4940-a497-d44f9b2bbbcc"><Timestamp>2019-08-09 23:01:41</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
