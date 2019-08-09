@@ -23,6 +23,9 @@
     <module>jobs/process/MarketingOutbound/MO_Import/mo_stg_leads_0.1</module>
     <module>jobs/process/MarketingOutbound/MO_Stage/mo_staging_controller_0.1</module>
     <module>jobs/process/templates/job_master_template_0.1</module>
+    <module>jobs/joblets/Logging/jlt_statistics_and_error_0.1</module>
+    <module>jobs/process/Master_Jobs/Master_Jobs/job_subjob2_template_0.1</module>
+    <module>jobs/process/Master_Jobs/Master_Jobs/job_subjob1_template_0.1</module>
   </modules>
   <properties>
     <signer.version>7.2.1</signer.version>
