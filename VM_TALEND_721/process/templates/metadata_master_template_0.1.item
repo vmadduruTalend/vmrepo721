@@ -852,19 +852,19 @@
       <additionalProperties key="Comment" value=""/>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="1344" posY="320">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="1344" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_3"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_cVFPMLpoEemoboFy2bYe5g-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_cVFPMLpoEemoboFy2bYe5g-tMap_3-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
     <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
     <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
-    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="talend_job_run_details" name="out1">
       <column comment="" key="true" length="10" name="runid" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
@@ -922,18 +922,18 @@
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="out1" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="row3.runid" name="runid" type="id_Integer"/>
-        <mapperTableEntries expression="row3.businessareaname " name="businessareaname" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row3.jobauthordomainid " name="jobauthordomainid" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row3.jobid " name="jobid" type="id_Integer"/>
-        <mapperTableEntries expression="row3.jobname " name="jobname" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row3.subjobid " name="subjobid" type="id_Integer"/>
-        <mapperTableEntries expression="row3.subjobname " name="subjobname" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row3.businessareaname" name="businessareaname" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row3.jobauthordomainid" name="jobauthordomainid" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row3.jobid" name="jobid" type="id_Integer"/>
+        <mapperTableEntries expression="row3.jobname" name="jobname" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row3.subjobid" name="subjobid" type="id_Integer"/>
+        <mapperTableEntries expression="row3.subjobname" name="subjobname" nullable="true" type="id_String"/>
         <mapperTableEntries expression="" name="jobstartdate" nullable="true" type="id_Date"/>
         <mapperTableEntries expression="" name="jobenddate" nullable="true" type="id_Date"/>
         <mapperTableEntries expression="" name="jobruntimeminutes" nullable="true" type="id_Float"/>
-        <mapperTableEntries expression="row3.subjobstartdate " name="subjobstartdate" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="TalendDate.getCurrentDate() " name="subjobenddate" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="(((float)((long)((Long)globalMap.get(&quot;tChronometerStop_2_DURATION&quot;))))/1000)/60" name="subjobruntimeminutes" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row3.subjobstartdate" name="subjobstartdate" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="TalendDate.getCurrentDate()" name="subjobenddate" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="(((float)((long)((Long)globalMap.get(&quot;tChronometerStop_2_DURATION&quot;))))/1000)/60 " name="subjobruntimeminutes" nullable="true" type="id_Float"/>
         <mapperTableEntries expression="&quot;Completed&quot;" name="subjobstatus" nullable="true" type="id_String"/>
         <mapperTableEntries expression="" name="jobstatus" nullable="true" type="id_String"/>
         <mapperTableEntries expression="TalendDate.getCurrentDate()" name="update_datetime" nullable="true" type="id_Date"/>
@@ -1656,6 +1656,26 @@
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="928" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_cVFPMLpoEemoboFy2bYe5g-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+    </nodeData>
+  </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tDBInput_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk2"/>
   </connection>
@@ -1694,11 +1714,11 @@
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tChronometerStop_1" offsetLabelX="0" offsetLabelY="0" source="tChronometerStop_1" target="tDBInput_2">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk8"/>
   </connection>
-  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tMap_1">
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tMap_3">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
   </connection>
-  <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tDBOutput_1">
+  <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_3" target="tDBOutput_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out1"/>
   </connection>
@@ -1852,13 +1872,18 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_24afe4c9-9c39-4e10-a066-f20bad027b00"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>rk+KiPdtO7TwecnWeHCSt7o6BCWm3Sk8OAa4LughPJ9Mks6MHGpAjggLzJ7BBJOi4GrVY+5espfy
-7a4xRtypfg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_91b06136-6aa5-4e44-9ec4-22c22a3b8297"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>hD+Ga3+v45c1Sz7PaR5Ue229krtB+LewPE1LQAWLhnJOCxI1KedqqkxUrfICYLYhvY1xwWA2htep
-EMvKngIE3Q==</DigestValue></Reference></SignedInfo><SignatureValue>ZqaoHInXM1NmrgTr2Ku0Unr92vr9CH8XjQARdSrcwN7wcS/uLklFpQl89wRKZExF5FqRrmfYjars
-m4QLOgkeysKUE4cxV7W3NhSmfNjXahNNKmmEXSgsV1MXPoVITkUgTIPhLlpaBzCp5WNv2PX3R59e
-aZyLXr9n8Mo1otUJK9elfIfBFvJoAyzq8QxHCA8SayTn5znmk7p2xjyemjkhBrs4oIV1zpefSO8R
-bF/vKMNIXZ7uKomjBYqoCDBrsdNzPdy5tTPznPJ4oKq151CHHftvqz2Lq6y9lc78iM1QrbDxOMwG
-orxd1P6fESEkWJW7fETS7qcdXa0M+b/UgGeXpQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6e65c97a-4f1e-4492-87bb-03005571a4f4"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>3SNneNFRaEUwLYfFu+441ZOaQyBtzNhIRmqxRdDYYLZAOxNxkgPuhnH2uZggIBHXt9epwTrKwMCM
+R+SKimY+cg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_27ffc899-e2ec-47a7-9440-e014d559128c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>9Na1iqPrGJG2WZgPIvBPQw72KaiQlPVllsr5grstmN5/d8TwFyAhTaLA44CPGLlGsfico9cBOOWv
+9toOoZF/dg==</DigestValue></Reference></SignedInfo><SignatureValue>onk+T68uKHj/6DhKVhDDhggT8+PY7dwCyTyR2jeNFdvo884zdcRBznK3rpHybFIxEjEozMzlvJvC
+qDPlSdhj0f6b2/Ntq8P728QtqBEuad0aHhtYiNDkLbIUMxL71jGH7wCeZ/JE5lgOV8S52cSr9UTv
+b26o1LBivPgCvhi3euaAiz0k25Vj5Y+PSiEekS0uYgeVnwjQ5bQ3nWgP1UMtmLOXyPdVwM7xzr5K
+clBFunqFg+JzvCXQX/h+/TA2GNtpiXDV+bszGmFJ93Wv4IExnli3YJOCmkz+GSY7+Ae0wGMcsiVW
+P0exDn6N8o7O4Z0/cEYpfa3HAr2w3UrkN1AdYw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -1880,4 +1905,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_91b06136-6aa5-4e44-9ec4-22c22a3b8297" Target="#_24afe4c9-9c39-4e10-a066-f20bad027b00"><Timestamp>2019-08-09 07:37:50</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_27ffc899-e2ec-47a7-9440-e014d559128c" Target="#_6e65c97a-4f1e-4492-87bb-03005571a4f4"><Timestamp>2019-08-09 07:47:20</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
