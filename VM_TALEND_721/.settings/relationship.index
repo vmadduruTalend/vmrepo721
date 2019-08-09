@@ -387,6 +387,125 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_O5DhAM1tEeiP9OLoJWHAFA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_OOKGEJzqEei8D5zvXueVQw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_Yjp2wKWcEeiNVqvJve2vKA",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_nu8OQJthEei8JJmQdaedHg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_q-UUUJthEei8JJmQdaedHg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_DesFAJwhEei2APqNe66gQg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_vnA-sJwaEei2APqNe66gQg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_8aGaAJv2EeiUC-77MrQgdA",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
+    "id" : "_HMNtUJzqEei8D5zvXueVQw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_hcvs4JtgEei8JJmQdaedHg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataMasking",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQualityDependencies",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MDM",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "SQLike",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendStringUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_HMNtUJzqEei8D5zvXueVQw - Talend_Job_Run_Details",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_HMNtUJzqEei8D5zvXueVQw - Talend_Jobs",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_hcvs4JtgEei8JJmQdaedHg - talend_job_run_details",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_ObamYLTmEemZPPAymRw_Ew",
     "version" : "0.1",
     "type" : "job"
@@ -919,6 +1038,93 @@
     "type" : "routine"
   }, {
     "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "SQLike",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendStringUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_8aGaAJv2EeiUC-77MrQgdA",
+    "version" : "0.1",
+    "type" : "joblet"
+  },
+  "relatedItems" : [ {
+    "id" : "_OOKGEJzqEei8D5zvXueVQw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_Yjp2wKWcEeiNVqvJve2vKA",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_6XfwQKWSEeid-L-vMm7SPA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_HMNtUJzqEei8D5zvXueVQw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataMasking",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQualityDependencies",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MDM",
     "version" : "Latest",
     "type" : "routine"
   }, {
