@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="connection_metadata_host" prompt="connection_metadata_host?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value="ec2-3-83-249-225.compute-1.amazonaws.com"/>
     <contextParameter comment="" name="connection_metadata_instance" prompt="connection_metadata_instance?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value="development"/>
@@ -834,6 +834,112 @@
       <additionalProperties key="Comment" value=""/>
     </metadata>
   </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="1344" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_cVFPMLpoEemoboFy2bYe5g-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="talend_job_run_details" name="out1">
+      <column comment="" key="true" length="10" name="runid" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="255" name="businessareaname" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="255" name="jobauthordomainid" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="jobid" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="255" name="jobname" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="subjobid" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="255" name="subjobname" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="19" name="jobstartdate" nullable="true" pattern="&quot;dd-MM-yyyy HH:MM:SS&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="19" name="jobenddate" nullable="true" pattern="&quot;dd-MM-yyyy HH:MM:SS&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="-1" name="jobruntimeminutes" nullable="true" pattern="" precision="2" sourceType="FLOAT" type="id_Float" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="19" name="subjobstartdate" nullable="true" pattern="&quot;dd-MM-yyyy HH:MM:SS&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="19" name="subjobenddate" nullable="true" pattern="&quot;dd-MM-yyyy HH:MM:SS&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="-1" name="subjobruntimeminutes" nullable="true" pattern="" precision="5" sourceType="FLOAT" type="id_Float" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="20" name="subjobstatus" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="20" name="jobstatus" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="19" name="update_datetime" nullable="true" pattern="&quot;dd-MM-yyyy HH:MM:SS&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <additionalProperties key="Comment" value=""/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="out1" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row3.runid" name="runid" type="id_Integer"/>
+        <mapperTableEntries expression="row3.businessareaname " name="businessareaname" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row3.jobauthordomainid " name="jobauthordomainid" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row3.jobid " name="jobid" type="id_Integer"/>
+        <mapperTableEntries expression="row3.jobname " name="jobname" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row3.subjobid " name="subjobid" type="id_Integer"/>
+        <mapperTableEntries expression="row3.subjobname " name="subjobname" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="" name="jobstartdate" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="" name="jobenddate" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="" name="jobruntimeminutes" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row3.subjobstartdate " name="subjobstartdate" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="TalendDate.getCurrentDate() " name="subjobenddate" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="(((float)((long)((Long)globalMap.get(&quot;tChronometerStop_2_DURATION&quot;))))/1000)/60" name="subjobruntimeminutes" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="&quot;Completed&quot;" name="subjobstatus" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="" name="jobstatus" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="TalendDate.getCurrentDate()" name="update_datetime" nullable="true" type="id_Date"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row3" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="runid" type="id_Integer"/>
+        <mapperTableEntries name="businessareaname" nullable="true" type="id_String"/>
+        <mapperTableEntries name="jobauthordomainid" nullable="true" type="id_String"/>
+        <mapperTableEntries name="jobid" type="id_Integer"/>
+        <mapperTableEntries name="jobname" nullable="true" type="id_String"/>
+        <mapperTableEntries name="subjobid" type="id_Integer"/>
+        <mapperTableEntries name="subjobname" nullable="true" type="id_String"/>
+        <mapperTableEntries name="jobstartdate" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="jobenddate" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="jobruntimeminutes" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="subjobstartdate" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="subjobenddate" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="subjobruntimeminutes" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="subjobstatus" nullable="true" type="id_String"/>
+        <mapperTableEntries name="jobstatus" nullable="true" type="id_String"/>
+        <mapperTableEntries name="update_datetime" nullable="true" type="id_Date"/>
+      </inputTables>
+    </nodeData>
+  </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tDBInput_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk2"/>
   </connection>
@@ -871,6 +977,10 @@
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tChronometerStop_1" offsetLabelX="0" offsetLabelY="0" source="tChronometerStop_1" target="tDBInput_2">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk8"/>
+  </connection>
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
@@ -933,13 +1043,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_36cf73c2-3f90-469d-a38a-9d33c0eb6ba6"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>2waAFADkB7iGz85thsbB15aBBEXaFGla4i0EXDb1TEhG65Tyts9V0eAFDJChf3/tkTNOi68Cp2nP
-PeD72u9iYw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f7c03444-7c8f-42e6-a6b8-b725e2d50131"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8mQa2oTM8uMUs2u6A0TupTju+R3I1oo28oDJrVf6muWNU6FfdF4fP6m4fGuM5GHJiy3hJLYp83Qn
-vTCcDW44cA==</DigestValue></Reference></SignedInfo><SignatureValue>n66XYhleEPt7ie1ZK+tcvDnYQ9Kc7khqDYmLEMk1g4Cf9PYxFd4VWf4tVMXO6LBrppc3HQhiXCm3
-iAb8PGlMsloZpO5NqcXLicesROCv6gJkUE5UaqbV1NuedYNinoztCK542ZI9GSyjigcYaCk0X7tX
-MP/ZJOjrA4SUsh6kwdtO1GfnblwuvVafeO+VU8hGyTc535TuK8FrsSdRpKFraiyNZDpxnqJbYPUh
-RIqcEof+wljOWdMBv18cUNKqh9lP0cca/xuVlrpgjhthaPSdV4QVlDMkz2z2GXiGCLt9k1ZT+n2j
-fH+pGLz1nVm9SNW3CrZ8CSPX1ushU6VZ25bw4A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9121e7e8-8b0d-4f16-a9b6-274af9d4b3be"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>9DUJS1VwKH14PHEXC2+LF/0ljdRtz4/GSE/bm21LOc8RjORSdicx50w3Kv5P8ki93MPRmrJ8wdPo
+iyyxcjZsFA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_cdac7530-ba57-4128-bcac-043937bde708"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>U4zTw/E6Wa1n8G9T4Gc4PnuPgIb3XCqzSVj2ukR3+edrrwXlatqyOsFbUEfZQXFzQCb9QsMARiqx
+SDPB2GzGCQ==</DigestValue></Reference></SignedInfo><SignatureValue>dxwk5UFZMntSq6UQILHfVaSsu4eadgxeag7/zv2qGJiWBWf7frDMEGsUx9v9UPqMrUefW2ID8s+j
+Ngt51gcmwMVZFmD2oI1cTDyrpa2jw5ptLSBS+lkUUmUUPhNAbZZF3G9eXBoe14D8byKRwRp6IqIY
+ZEuqcKmtIhSBNq+UDGdWE5yrIsGecYScoLHXiD121wLt/3a2rLzCEOMepqpf0L+WrCZ0SI4IhVbt
+uDj1EEfqO9bthbpNDyd/OagwjaMJMM8rXB3WKLE8N0LptKeUFkeY54UEENSnTlMx9AqDOYMhguWT
+sFSA7CoEywesx6FaIQJ/GCIzcXXMhMKTl/DzWA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -961,4 +1071,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f7c03444-7c8f-42e6-a6b8-b725e2d50131" Target="#_36cf73c2-3f90-469d-a38a-9d33c0eb6ba6"><Timestamp>2019-08-09 06:26:53</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_cdac7530-ba57-4128-bcac-043937bde708" Target="#_9121e7e8-8b0d-4f16-a9b6-274af9d4b3be"><Timestamp>2019-08-09 06:33:13</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
