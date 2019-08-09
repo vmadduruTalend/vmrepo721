@@ -7,6 +7,12 @@
     <contextParameter comment="" name="connection_metadata_schema" prompt="connection_metadata_schema?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value="metadata"/>
     <contextParameter comment="" name="connection_metadata_username" prompt="connection_metadata_username?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value="talend"/>
     <contextParameter comment="" name="resource_file_sensis_db_connection_context" prompt="resource_file_sensis_db_connection_context?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value="/Users/vijaymadduru/Downloads/Sensis/resources/sensis_db_connection_context.csv"/>
+    <contextParameter comment="" name="mysqllocal_Database" prompt="mysqllocal_Database?" promptNeeded="false" repositoryContextId="_OOKGEJzqEei8D5zvXueVQw" type="id_String" value="boeing"/>
+    <contextParameter comment="" name="mysqllocal_Server" prompt="mysqllocal_Server?" promptNeeded="false" repositoryContextId="_OOKGEJzqEei8D5zvXueVQw" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="mysqllocal_Port" prompt="mysqllocal_Port?" promptNeeded="false" repositoryContextId="_OOKGEJzqEei8D5zvXueVQw" type="id_String" value="3306"/>
+    <contextParameter comment="" name="mysqllocal_Password" prompt="mysqllocal_Password?" promptNeeded="false" repositoryContextId="_OOKGEJzqEei8D5zvXueVQw" type="id_Password" value="YdTnhbqBAdo="/>
+    <contextParameter comment="" name="mysqllocal_AdditionalParams" prompt="mysqllocal_AdditionalParams?" promptNeeded="false" repositoryContextId="_OOKGEJzqEei8D5zvXueVQw" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="mysqllocal_Login" prompt="mysqllocal_Login?" promptNeeded="false" repositoryContextId="_OOKGEJzqEei8D5zvXueVQw" type="id_String" value="talend"/>
   </context>
   <context confirmationNeeded="false" name="vm_env_dev">
     <contextParameter comment="" name="connection_metadata_host" prompt="connection_metadata_host?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value=""/>
@@ -16,6 +22,12 @@
     <contextParameter comment="" name="connection_metadata_schema" prompt="connection_metadata_schema?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value=""/>
     <contextParameter comment="" name="connection_metadata_username" prompt="connection_metadata_username?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value=""/>
     <contextParameter comment="" name="resource_file_sensis_db_connection_context" prompt="resource_file_sensis_db_connection_context?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value=""/>
+    <contextParameter comment="" name="mysqllocal_Database" prompt="mysqllocal_Database?" promptNeeded="false" repositoryContextId="_OOKGEJzqEei8D5zvXueVQw" type="id_String" value="boeing"/>
+    <contextParameter comment="" name="mysqllocal_Server" prompt="mysqllocal_Server?" promptNeeded="false" repositoryContextId="_OOKGEJzqEei8D5zvXueVQw" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="mysqllocal_Port" prompt="mysqllocal_Port?" promptNeeded="false" repositoryContextId="_OOKGEJzqEei8D5zvXueVQw" type="id_String" value="3306"/>
+    <contextParameter comment="" name="mysqllocal_Password" prompt="mysqllocal_Password?" promptNeeded="false" repositoryContextId="_OOKGEJzqEei8D5zvXueVQw" type="id_Password" value="YdTnhbqBAdo="/>
+    <contextParameter comment="" name="mysqllocal_AdditionalParams" prompt="mysqllocal_AdditionalParams?" promptNeeded="false" repositoryContextId="_OOKGEJzqEei8D5zvXueVQw" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="mysqllocal_Login" prompt="mysqllocal_Login?" promptNeeded="false" repositoryContextId="_OOKGEJzqEei8D5zvXueVQw" type="id_String" value="talend"/>
   </context>
   <context confirmationNeeded="false" name="vm_env_prd">
     <contextParameter comment="" name="connection_metadata_host" prompt="connection_metadata_host?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value=""/>
@@ -25,6 +37,12 @@
     <contextParameter comment="" name="connection_metadata_schema" prompt="connection_metadata_schema?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value=""/>
     <contextParameter comment="" name="connection_metadata_username" prompt="connection_metadata_username?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value=""/>
     <contextParameter comment="" name="resource_file_sensis_db_connection_context" prompt="resource_file_sensis_db_connection_context?" promptNeeded="false" repositoryContextId="_rpTIULo1EemoboFy2bYe5g" type="id_String" value=""/>
+    <contextParameter comment="" name="mysqllocal_Database" prompt="mysqllocal_Database?" promptNeeded="false" repositoryContextId="_OOKGEJzqEei8D5zvXueVQw" type="id_String" value="boeing"/>
+    <contextParameter comment="" name="mysqllocal_Server" prompt="mysqllocal_Server?" promptNeeded="false" repositoryContextId="_OOKGEJzqEei8D5zvXueVQw" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="mysqllocal_Port" prompt="mysqllocal_Port?" promptNeeded="false" repositoryContextId="_OOKGEJzqEei8D5zvXueVQw" type="id_String" value="3306"/>
+    <contextParameter comment="" name="mysqllocal_Password" prompt="mysqllocal_Password?" promptNeeded="false" repositoryContextId="_OOKGEJzqEei8D5zvXueVQw" type="id_Password" value="YdTnhbqBAdo="/>
+    <contextParameter comment="" name="mysqllocal_AdditionalParams" prompt="mysqllocal_AdditionalParams?" promptNeeded="false" repositoryContextId="_OOKGEJzqEei8D5zvXueVQw" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="mysqllocal_Login" prompt="mysqllocal_Login?" promptNeeded="false" repositoryContextId="_OOKGEJzqEei8D5zvXueVQw" type="id_String" value="talend"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="32"/>
@@ -736,7 +754,7 @@
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  `talend_job_run_details`.`runid`, &#10;  `talend_job_run_details`.`businessareaname`, &#10;  `talend_job_run_details`.`jobauthordomainid`, &#10;  `talend_job_run_details`.`jobid`, &#10;  `talend_job_run_details`.`jobname`, &#10;  `talend_job_run_details`.`subjobid`, &#10;  `talend_job_run_details`.`subjobname`, &#10;  `talend_job_run_details`.`jobstartdate`, &#10;  `talend_job_run_details`.`jobenddate`, &#10;  `talend_job_run_details`.`jobruntimeminutes`, &#10;  `talend_job_run_details`.`subjobstartdate`, &#10;  `talend_job_run_details`.`subjobenddate`, &#10;  `talend_job_run_details`.`subjobruntimeminutes`, &#10;  `talend_job_run_details`.`subjobstatus`, &#10;  `talend_job_run_details`.`jobstatus`, &#10;  `talend_job_run_details`.`update_datetime`&#10;FROM `talend_job_run_details`&quot;&#10;where subjobstatus='Pending' and jobid=\&quot;+((String)globalMap.get(\&quot;jobid\&quot;))+\&quot; and subjobid =\&quot;+((String)globalMap.get(\&quot;subjobid\&quot;))+\&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  `talend_job_run_details`.`runid`, &#10;  `talend_job_run_details`.`businessareaname`, &#10;  `talend_job_run_details`.`jobauthordomainid`, &#10;  `talend_job_run_details`.`jobid`, &#10;  `talend_job_run_details`.`jobname`, &#10;  `talend_job_run_details`.`subjobid`, &#10;  `talend_job_run_details`.`subjobname`, &#10;  `talend_job_run_details`.`jobstartdate`, &#10;  `talend_job_run_details`.`jobenddate`, &#10;  `talend_job_run_details`.`jobruntimeminutes`, &#10;  `talend_job_run_details`.`subjobstartdate`, &#10;  `talend_job_run_details`.`subjobenddate`, &#10;  `talend_job_run_details`.`subjobruntimeminutes`, &#10;  `talend_job_run_details`.`subjobstatus`, &#10;  `talend_job_run_details`.`jobstatus`, &#10;  `talend_job_run_details`.`update_datetime`&#10;FROM `talend_job_run_details`&quot;&#10;where subjobstatus='Pending' and jobid=&quot;+((String)globalMap.get(&quot;jobid&quot;))+&quot; and subjobid =&quot;+((String)globalMap.get(&quot;subjobid&quot;))+&quot;&quot;&#10;"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -1834,13 +1852,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ec672c11-92bb-4e32-b93d-6868295be0f1"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>quc8Lqnk88FCCZ5XI5ZCejN8XK1iI7cvUSyFBfj4MlYM4JwIbR2nlbChS9a8rQCWnYVU7C2WO8s2
-WHzf3RcLPg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f8197db0-4af8-41ec-ab2f-5b5fd87c7bea"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ILNlg0H4aM4dNkN+wknpcJaX2MZjJ6wUgz+CF6dmvGywhPcVlEUfEwXeCRm4shAW6rHmmWnoOlrI
-22td28wYPg==</DigestValue></Reference></SignedInfo><SignatureValue>lpNmI3kxGjnsU3uVFLgOLtZraGQBBBXojzKFafFfOSD0sDF0d+lAuEdvxlbH/DJDwAwzZkqT64bb
-J9oRmhRhjc7MAgLCGjnfbsx86lmCkXlBfot/pGW+dACqVaoh1J0Kgib33WL24beYIG/p1qokFU80
-GoIeZ/oSF/3jERu/HZG2Xtw3mXjtcU6qCGkuEQrwU4khJHpqQm/lACGJd0p+iJ82MgCD167QVc0V
-ZtlADTaDCxRl1wdeinaweLwNPOPAxetNiCNqYDgmlBigWgIX1AnLn4Hm4yJSkua17X/gRTTJriZE
-hZS6coSjv1DQtmZCzLqVcl3flPNUv9c3vPRIkw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e46da3b7-9dc4-4661-8b10-2190fe03dc3d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>iARpx2bXPJWLTA+WlEAZSTnLb2sAfsG/y8LCrXKG+B3mvcWYujzGg+eLyU0UkEXPcjLNK3lfDR0n
+XN+aXVG7pA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b470459e-b7ad-431d-a2f8-030840569887"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>9Raiz/PkyaKH+hlpah7ar7o6J5CNV4k3AqEFiVC+CEjBvVsHxiY+9vjOeYUByM5cnNZgYm6MVkDD
+9ibaRewrlQ==</DigestValue></Reference></SignedInfo><SignatureValue>UsJajG49/+GSNgg7TCfTTFGPA0GejcJW6JvRGW9f1TO9NMwJp1t6m9U6q9oN/0yxxa6AK5oAXVOn
+D8pGBEe2pm2pufSQFSt7AVgErGkC1AM5j+KgQNYI7XYafeTIhUagNNNC+fgvZq/Gy+NgWPZKfCYY
+Br+CIkRnxYYuvIatNIq37M+OU1RPmP24HKTgxNtyFVm+BQulhUgNEm2QgmuytcI7nKXsnduBy94Q
+K8ZQ7f2RzbUVV8v5/APwZFXt3eJ6h0nuj/QkUpKcbaqInd8YX/MNl39e9CYLuEgTpTcBuXXQ3JQ6
+rnKnKZDktELS0tf9/d2q5ElF/n3iUiR4cGMGpA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -1862,4 +1880,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f8197db0-4af8-41ec-ab2f-5b5fd87c7bea" Target="#_ec672c11-92bb-4e32-b93d-6868295be0f1"><Timestamp>2019-08-09 06:46:10</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b470459e-b7ad-431d-a2f8-030840569887" Target="#_e46da3b7-9dc4-4661-8b10-2190fe03dc3d"><Timestamp>2019-08-09 06:52:08</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
