@@ -855,10 +855,6 @@
     "id" : "_NJEqkLoREemoboFy2bYe5g - talend_job_run_details",
     "version" : "Latest",
     "type" : "schema"
-  }, {
-    "id" : "_NJEqkLoREemoboFy2bYe5g - talend_jobs",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
