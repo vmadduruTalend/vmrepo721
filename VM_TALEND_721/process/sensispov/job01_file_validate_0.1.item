@@ -247,7 +247,7 @@
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="out1" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="row1.silent_line_indicator " name="silent_line_indicator" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.silent_line_indicator.trim() == &quot;N&quot; || &#10; row1.silent_line_indicator.trim() == &quot;Y&quot; ||&#10; row1.silent_line_indicator.trim() == &quot; &quot;?&quot;Valid&quot;:&quot;Invalid&quot; " name="dq_silent_line_indicator" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.silent_line_indicator == &quot;N&quot; || &#10; row1.silent_line_indicator == &quot;Y&quot; ||&#10; row1.silent_line_indicator == &quot; &quot;? row1.silent_line_indicator:&quot;Invalid-&quot; + row1.silent_line_indicator " name="dq_silent_line_indicator" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row1.silent_line_indicator.length() " name="score_silent_line_indicator" nullable="true" type="id_Integer"/>
         <mapperTableEntries expression="row1.service_type " name="service_type" nullable="true" type="id_String"/>
         <mapperTableEntries expression="(row1.service_type == &quot;A&quot;||&#10; row1.service_type == &quot;R&quot; ||&#10; row1.service_type == &quot;W&quot;)?&quot;Valid&quot;:&quot;Invalid&quot; " name="dq_service_type" nullable="true" type="id_String"/>
@@ -376,13 +376,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_85bae0aa-495c-43a2-a324-bf71c5663ba7"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Q3viPnPivwz6dy5WgMsowXSr6OI/1Gu2cEkFWcHOWgVCY5FaQM8gBACn3TDf9I//z1j2nRkiKuze
-fr31uxS3Vg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_943e26af-8b0d-4c89-bacb-dad212f17ef4"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>y74QaOl8EK1GnPtgXUbEJ3SgYRHRVD2Qj8URV88tliu4O5x4qxPN6bBX4dmGTRKzZPcaLbIlmpCB
-/YPETSp8ig==</DigestValue></Reference></SignedInfo><SignatureValue>helvwTrUpSIvz/GvALwyf6+GeEd9SbGfCyxJv2tAjMBXaHMucyEYf//I2E4pHgar8N0SY8IV0mT5
-GWvsmZmjz9GywZq7tnLW7uqPEmjeOicVb1BIhVZaLYoBowLqfS36vsLVqo2aJjH5GYzT82ela8BW
-J5HxqONKe9nUYW0UPFV9PCFxZE2FkIGQdMYa3P9so+B82O86Pgs3CeqwlCT8i9MB8Ysi9cx5jiwy
-Bk5Vm9LBe4zCVdQ9xy62YQwcbHeGUMnVQyyhF3opWoXkiARsWcifYm3av8ZIxWxJu5Wmi80GE8At
-OmW0ZNoFgqeoI7vNzOckgZC43pvriqc2SiNQtg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_595ffe03-a4ae-4af9-8000-799eb3ff0386"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>RId+qwL31jatOlvhhemxO8nBEtXROOPhLQfLorp1g8ohL+1hK5pwLlmq+OVyk4454l1YJu8wku3g
+0vkOr9Yxzg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f8447275-2f7f-4030-a84b-0da0fdc7714c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>3/reXrjjnR4dyzS3uDfIXzfEmJKBeLd4eGmCWTr1u9Q7uCDkmeaWLS1JZv+zmzYvzEXR7qe7TOJN
+hI5T8qaaRA==</DigestValue></Reference></SignedInfo><SignatureValue>L0vBkJh+OOTuuFsSpAFf1paXUHcI4pZOtMigN3NlIk0eBHA5+ALOY8XDb0wmsyWqgxu4Plq6bzte
+5b5lURJI3xdSoFWD05Dky+Wy3L4EeFxEUxLFBcFFbXeQ/5pSZ0rnk3vgFnGvi5/Mjl6ou2mR3g4Q
+JZdFXMBWyNMDfsJEGeH7Ruq1oujM13PUg7DTcxFt1g9MOcKAlGLjr55xI4rXzjguM6xbKWtvNdbj
+CpAgjKNJzF6wfiIrFr2Lax29cZvhpk3emKZff2GNnt1lS/Xb7dRZoLCdnJy9XpL3X3M2HlkKeCBm
+pSOyE1KapU5dwgPFslejZICRkGp5irmaASKogw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -404,4 +404,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_943e26af-8b0d-4c89-bacb-dad212f17ef4" Target="#_85bae0aa-495c-43a2-a324-bf71c5663ba7"><Timestamp>2019-08-16 04:36:29</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f8447275-2f7f-4030-a84b-0da0fdc7714c" Target="#_595ffe03-a4ae-4af9-8000-799eb3ff0386"><Timestamp>2019-08-16 04:37:56</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
