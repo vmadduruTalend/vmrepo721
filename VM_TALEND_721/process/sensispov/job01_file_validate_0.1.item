@@ -244,7 +244,7 @@
       <column comment="" key="false" length="-1" name="score_extension_telephone_number" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="out1" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="row1.silent_line_indicator " name="silent_line_indicator" nullable="true" type="id_String"/>
@@ -280,7 +280,97 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="96">
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="448" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_2"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_RPmwIL-5EemFIINQqPV1iQ-tMap_2-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="out2">
+      <column comment="" key="false" length="1" name="silent_line_indicator" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="dq_silent_line_indicator" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="score_silent_line_indicator" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="service_type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="dq_service_type" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="score_service_type" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="primary_telephone_number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="10" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="dq_primary_telephone_number" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="score_primary_telephone_number" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="area_code_length" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="dq_area_code_length" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="score_area_code_length" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="extension_type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="dq_extension_type" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="score_extension_type" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="extension_area_code_length" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="dq_extension_area_code_length" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="score_extension_area_code_length" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="extension_telephone_number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="10" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="dq_extension_telephone_number" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="score_extension_telephone_number" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="score_row_quality" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Long" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties shellMaximized="true"/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="out2" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="out1.silent_line_indicator" name="silent_line_indicator" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="out1.dq_silent_line_indicator" name="dq_silent_line_indicator" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="out1.score_silent_line_indicator" name="score_silent_line_indicator" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="out1.service_type" name="service_type" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="out1.dq_service_type" name="dq_service_type" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="out1.score_service_type" name="score_service_type" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="out1.primary_telephone_number" name="primary_telephone_number" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="out1.dq_primary_telephone_number" name="dq_primary_telephone_number" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="out1.score_primary_telephone_number" name="score_primary_telephone_number" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="out1.area_code_length" name="area_code_length" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="out1.dq_area_code_length" name="dq_area_code_length" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="out1.score_area_code_length" name="score_area_code_length" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="out1.extension_type" name="extension_type" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="out1.dq_extension_type" name="dq_extension_type" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="out1.score_extension_type" name="score_extension_type" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="out1.extension_area_code_length" name="extension_area_code_length" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="out1.dq_extension_area_code_length" name="dq_extension_area_code_length" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="out1.score_extension_area_code_length" name="score_extension_area_code_length" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="out1.extension_telephone_number" name="extension_telephone_number" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="out1.dq_extension_telephone_number" name="dq_extension_telephone_number" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="out1.score_extension_telephone_number" name="score_extension_telephone_number" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="(out1.score_silent_line_indicator + out1.score_service_type  out1.score_primary_telephone_number + out1.score_area_code_length  out1.score_extension_type + out1.score_extension_area_code_length) / 6 " name="score_row_quality" nullable="true" type="id_Long"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="out1" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="silent_line_indicator" nullable="true" type="id_String"/>
+        <mapperTableEntries name="dq_silent_line_indicator" nullable="true" type="id_String"/>
+        <mapperTableEntries name="score_silent_line_indicator" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="service_type" nullable="true" type="id_String"/>
+        <mapperTableEntries name="dq_service_type" nullable="true" type="id_String"/>
+        <mapperTableEntries name="score_service_type" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="primary_telephone_number" nullable="true" type="id_String"/>
+        <mapperTableEntries name="dq_primary_telephone_number" nullable="true" type="id_String"/>
+        <mapperTableEntries name="score_primary_telephone_number" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="area_code_length" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="dq_area_code_length" nullable="true" type="id_String"/>
+        <mapperTableEntries name="score_area_code_length" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="extension_type" nullable="true" type="id_String"/>
+        <mapperTableEntries name="dq_extension_type" nullable="true" type="id_String"/>
+        <mapperTableEntries name="score_extension_type" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="extension_area_code_length" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="dq_extension_area_code_length" nullable="true" type="id_String"/>
+        <mapperTableEntries name="score_extension_area_code_length" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="extension_telephone_number" nullable="true" type="id_String"/>
+        <mapperTableEntries name="dq_extension_telephone_number" nullable="true" type="id_String"/>
+        <mapperTableEntries name="score_extension_telephone_number" nullable="true" type="id_Integer"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
@@ -336,6 +426,8 @@
       <elementValue elementRef="LENGTH" value="10"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="score_extension_telephone_number"/>
       <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="score_row_quality"/>
+      <elementValue elementRef="LENGTH" value="10"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
@@ -362,28 +454,38 @@
       <column comment="" key="false" length="-1" name="extension_telephone_number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="10" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="dq_extension_telephone_number" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="score_extension_telephone_number" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="score_row_quality" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Long" usefulColumn="true"/>
     </metadata>
   </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputPositional_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputPositional_1" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
   </connection>
-  <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tLogRow_1">
+  <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tMap_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out1"/>
+  </connection>
+  <connection connectorName="FLOW" label="out2" lineStyle="0" metaname="out2" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tLogRow_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="score_row_quality"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out2"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputPositional_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_461cefc6-2159-45b2-b53d-5f9c9b72e4f2"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>/XaxKTQPUFhREIi9OE3yJz7rbTxFM0JhaxhFcR/vplNjzcvTYhTR8xhwllOQxhaoPlQvc9JoGAAV
-Y7okhCieEQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a26b2c60-f616-441f-a492-dfa11c7aebb7"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>pR3VWm8ysG7opFa7Vz+XvNowC13y1yDEJ9xLMoXNcvG63B452ao8rtxA4wxQwCi07aHAET1UKGEI
-rjYv4DM2iw==</DigestValue></Reference></SignedInfo><SignatureValue>TacjWbY4kpm678cKcR33aadT+8KX8dxt3QPVIQdG9adIFWtTJ6iWDR4uxPkMkAGCrfGq5xs21xbX
-3J/FsdOsSrcotnRldk597M1QcaQSAiZXxjjJwHA/VBz+IaCuE4tdM/vFs0oYMfJm4NMuZHiaUZjw
-RqRbVXQC/beJIKpHKM8uI+rJxeiCoNtfbgiC7zo5zzj33d195juJg0lu4lpBowDVNWgJmOHb2dlq
-VBZn8BpHdoL1DUAPJhMgQfPK8M2xz1tnZyiXxsJagCynlacPixeFFHXWl+5iYzTclXPACxL578b/
-r8oRYsSfI4g17UnHE11wBRheu3fWxcg6UShf7A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_3864f124-dcf8-492f-b0b2-37db6694fead"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>f5GQxJbSr7zNo4JaVZfQcy4kifbacVmzYOAoIKCjN/xLLj1R3uLc9KqoW6QV67iABZW9SvjCfUw5
+P0cTpxvrjA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4cc9a683-d1c4-4950-b27a-a80d7ad2da4b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>67BcoSj8Q4o0n0T8jSYsia86byIF4tb2KAn3v4NPErBlZ/v10XCbXkJo3evNHf2plW9qhyFayvkL
+x/vYaGvuKg==</DigestValue></Reference></SignedInfo><SignatureValue>gk48qKoae7DW7adeKtzr5Puwlzrc/0cOf5HuvXvXsx82VeqFgEiqhKl/Imqf9oJU54N5jGLKcsiX
+inh5EYJGBMVXj0YUMxkH0gOi/Vpw50640OCxCPW7067zUyy6cfPINuk29aY/pr3+XPQQ27BIYfGF
+tSaJPf/JhSyA/FiXf7BJ0T491aKeV3Rk2YS5nFM/wus0/Q5PChkUNOtdHSNtxTHB5mxbV2YYDlPT
+IOIFOLZPYXwsY/WQ/MFmKpJM0wwyCp5ovGydlZlLJ0CcmekkyNNO6CxLPOybTE6s8BxrQsfZWyny
+/v6vdvTbdYSvdFeeGf8MnS/wBOUQzyufhjWVrw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -405,4 +507,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a26b2c60-f616-441f-a492-dfa11c7aebb7" Target="#_461cefc6-2159-45b2-b53d-5f9c9b72e4f2"><Timestamp>2019-08-16 05:22:29</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4cc9a683-d1c4-4950-b27a-a80d7ad2da4b" Target="#_3864f124-dcf8-492f-b0b2-37db6694fead"><Timestamp>2019-08-16 05:26:12</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
