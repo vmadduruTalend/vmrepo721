@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.rules:WhereRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.rules="http://dataquality.rules" xmi:id="_p_w7cL_XEemFIINQqPV1iQ" name="silent_line_indicator_rule" criticalityLevel="1" whereExpression="silent_line_indicator IN {'N','Y',''}">
+  <taggedValue xmi:id="_p_w7cb_XEemFIINQqPV1iQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_p_w7cr_XEemFIINQqPV1iQ" tag="Author" value="vmadduru@talendconsultant"/>
+  <taggedValue xmi:id="_p_w7c7_XEemFIINQqPV1iQ" tag="Purpose"/>
+  <taggedValue xmi:id="_p_w7dL_XEemFIINQqPV1iQ" tag="Description"/>
+  <taggedValue xmi:id="_p_w7db_XEemFIINQqPV1iQ" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_p_w7dr_XEemFIINQqPV1iQ" tag="Validation_Status" value="true"/>
+  <categories href="../../.Talend.definition#_8i9eQBI5Ed6TWL6NwMMHzQ"/>
+  <sqlGenericExpression xmi:id="_p_w7d7_XEemFIINQqPV1iQ" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__JOIN_CLAUSE__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+</dataquality.rules:WhereRule>
