@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.analysis="http://dataquality.analysis" xmi:id="_DzPgkL_YEemFIINQqPV1iQ" name="silent_line_indicator_analysis" creationDate="2019-08-15T20:43:50.029-0700">
+  <taggedValue xmi:id="_DzPgkb_YEemFIINQqPV1iQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_DzPgkr_YEemFIINQqPV1iQ" tag="Author" value="vmadduru@talendconsultant"/>
+  <taggedValue xmi:id="_DzPgk7_YEemFIINQqPV1iQ" tag="Purpose"/>
+  <taggedValue xmi:id="_DzPglL_YEemFIINQqPV1iQ" tag="Description"/>
+  <taggedValue xmi:id="_DzPglb_YEemFIINQqPV1iQ" tag="Version" value="0.1"/>
+  <context xmi:id="_DzPglr_YEemFIINQqPV1iQ"/>
+  <results xmi:id="_DzPgl7_YEemFIINQqPV1iQ">
+    <resultMetadata xmi:id="_DzPgmL_YEemFIINQqPV1iQ"/>
+  </results>
+  <parameters xmi:id="_DzPgmb_YEemFIINQqPV1iQ" analysisType="Table Analysis"/>
+</dataquality.analysis:Analysis>
