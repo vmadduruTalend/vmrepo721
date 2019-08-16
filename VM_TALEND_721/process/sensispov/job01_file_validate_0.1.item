@@ -189,20 +189,20 @@
     <metadata connector="FLOW" label="wss1_metadata" name="tFileInputPositional_1">
       <column comment="" key="false" length="1" name="silent_line_indicator" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="service_type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="primary_telephone_number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="primary_telephone_number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="10" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="area_code_length" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="extension_type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="extension_area_code_length" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="extension_telephone_number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="extension_telephone_number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="10" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="wss1_metadata" name="REJECT">
       <column comment="" key="false" length="1" name="silent_line_indicator" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="service_type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="primary_telephone_number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="primary_telephone_number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="10" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="area_code_length" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="extension_type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="extension_area_code_length" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="extension_telephone_number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="extension_telephone_number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="10" type="id_Integer" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
@@ -242,11 +242,11 @@
     <metadata connector="FLOW" label="wss1_metadata" name="tLogRow_1">
       <column comment="" key="false" length="1" name="silent_line_indicator" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="service_type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="primary_telephone_number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="primary_telephone_number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="10" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="area_code_length" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="extension_type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="extension_area_code_length" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="extension_telephone_number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="extension_telephone_number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="10" type="id_Integer" usefulColumn="true"/>
     </metadata>
   </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputPositional_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputPositional_1" target="tLogRow_1">
@@ -258,13 +258,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_914ecd8e-08a6-404b-ad4f-fb0583e47b46"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>hliQctNbQ1kG+aY3g0tIUPsawUSvwQI0+2mxqR6ruj0QAh83LfRgDPqw5wV5wdXrkGcHmkB4rzFe
-ssGkUR/Bnw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4efda58a-d731-4bf8-905c-0db303e4d867"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>YznYlbVlS8yv8RD38c5JzdjT8tyHh/YxCGpYoSXn2bwB5TMko7iLQ3DxYlMK+7IJptAHikwjLaHW
-JUsJEtf4CQ==</DigestValue></Reference></SignedInfo><SignatureValue>hK/vvyZphZ7ZVsCQaSDdMkvWNJ+2/oRlGtsArCHqbJ43qX4rnPxkVFXi3o+QkIF+c4V5dgWRumdn
-X21XAzgg9KRWIv6t+bq1CAz3SM1ohh11qMW3Zf2e3Gpae4Ouw5FkHz0g5H9KolJHzZ26rrQu16TP
-Z6A4O8xFwEpGEaSK8gFltMkpPbF/yi/OL71HQYsr8KoE4Rl3Olt4jEnZflB0aN/Pg+V5oo0YdF0C
-OAZYqbHmdtQXlx+zzleZj+2uW5zCM0SF7ct6ngbASqfgtDhg4br8RCTYBMhbaGs94N+7eaOG8fD+
-OYVsKyGYcWsscvWrR4BkfmCLbSr7/FkNZdQnnw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_10c06b32-e0ce-48e4-8cea-1dbbc1d708e3"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>IpD+bJN6tXC09cHfAkpBlZnMZ3WqXpRhzmWo/RXGkuziVVEOkhp9IEodJWgLerNeO7Kk81137aCc
+HO9GG+sfnw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_edea41e6-1401-42e9-8029-80456005b3e3"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>RyvbKhbEu3z0NhcvA2vbCjkxVHP/aToulQXfw/LgulS9TNLcCUBVTk0pl9rVfPFECcTOgVw1hFwA
+EpeRvhrtFQ==</DigestValue></Reference></SignedInfo><SignatureValue>WpE2MugMVywkH5XPzcfuEwGtTDYuh8H7lB028pAclYvokIl0qFbcWigLcBPvaPNN/hPMQQ1ycctq
+UQHW0d01/k0RvFIplUAukpOMDMnF4G5WrRCurvYTWouZhUUS11TtSQnXynoWhoYy5buQ6mJG/4q9
+nYSDSRf6k5iARrFY9jRczWZL9MDXkxF1yxlRmwNxymYsYO5Qok4J6qPXkS07/tRsFlCNk3gav3Lh
+hVXzKFbaDv88vYkr3pPEiNNo8QO75CWR7cxPv+ICMEJF6OkhB/QtBgRZ/xos+d1qUoAenJ/+F6jZ
+LaVJYPIag7omcZz6mLyz24Rh3NJf6BdSpwpeQg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -286,4 +286,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4efda58a-d731-4bf8-905c-0db303e4d867" Target="#_914ecd8e-08a6-404b-ad4f-fb0583e47b46"><Timestamp>2019-08-16 03:23:58</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_edea41e6-1401-42e9-8029-80456005b3e3" Target="#_10c06b32-e0ce-48e4-8cea-1dbbc1d708e3"><Timestamp>2019-08-16 03:26:52</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
