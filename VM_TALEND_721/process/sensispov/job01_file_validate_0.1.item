@@ -231,7 +231,7 @@
       <column comment="" key="false" length="-1" name="score_primary_telephone_number" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="area_code_length" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="dq_area_code_length" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="score_area_code_length" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="score_area_code_length" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="extension_type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="dq_extension_type" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="score_extension_type" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
@@ -257,7 +257,7 @@
         <mapperTableEntries expression="StringHandling.IS_ALPHA(row1.primary_telephone_number)?0:100 " name="score_primary_telephone_number" nullable="true" type="id_Integer"/>
         <mapperTableEntries expression="row1.area_code_length " name="area_code_length" nullable="true" type="id_Integer"/>
         <mapperTableEntries expression="StringHandling.IS_ALPHA(row1.area_code_length.toString())?&quot;Invalid&quot;:&quot;&quot; " name="dq_area_code_length" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="StringHandling.IS_ALPHA(row1.area_code_length.toString())?0:100 " name="score_area_code_length" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="StringHandling.IS_ALPHA(row1.area_code_length.toString())?0:100 " name="score_area_code_length" nullable="true" type="id_Integer"/>
         <mapperTableEntries expression="row1.extension_type " name="extension_type" nullable="true" type="id_String"/>
         <mapperTableEntries expression="StringHandling.IS_ALPHA(row1.extension_type)?&quot;&quot;:&quot;Invalid&quot; " name="dq_extension_type" nullable="true" type="id_String"/>
         <mapperTableEntries expression="StringHandling.IS_ALPHA(row1.extension_type)?100:0 " name="score_extension_type" nullable="true" type="id_Integer"/>
@@ -351,7 +351,7 @@
       <column comment="" key="false" length="-1" name="score_primary_telephone_number" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="area_code_length" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="dq_area_code_length" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="score_area_code_length" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="score_area_code_length" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="extension_type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="dq_extension_type" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="score_extension_type" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
@@ -376,13 +376,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ab8512c6-1d2c-4335-a036-03aa88e81214"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Z/hK+QPJj6jNN4kPr8aYandsv18ZnLIWqIhJVRIfF4l+XybxM3/5UpxjIQ5A1sURLIfKekygNC4i
-bag92hbM/g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3d3548a6-2d2c-46b3-8c5e-cb1f911396cd"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>RNqBlDoXYpEIl337pEpx+Q1eZg7gaVljAYgA110YaLslXYSPgDmAVpL/ExMzIDQlzQMaTdmeCRLk
-9dk1LNMHlQ==</DigestValue></Reference></SignedInfo><SignatureValue>bpqqcqLGuY8GxXc/jFqBjC3qr7p/IRbqEEFugWL7zm/PzmukrjxIXc3hFe58KxTTHUX9w4R8cnYD
-RKBEeJdIp/MIsksbhbA/Q8icMbLRzSYEwfesYm0FOzsnEhqcMYtMypCRLQmtGOTRE4QAGv1ta83j
-xEThHZJva6aYEmzRliiuTrqdYluMyZ9Sa6jBRm0wVDwJnBxlybTZQas/KdB2BjOJeX5rCmWROgRz
-nXmj/9HSYlYWsksSPWAlfCQKPafVp7c7YOs6EbgeUHAswJ0X2tu1ro+BEuhCkNsDFshNQrt5OzGj
-nKju9s0WbWZFF3m8XCyKDhNpBrYljQBXwFqnxw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_70b40fa0-78b4-43a6-94d2-dcb7a84336d6"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>WBIClIL6M8EY27YpHQLveo1rN5wV/2aGXyTXmV5080ajmH6aBLht+fVjbugvYZGm33fgvyJWIYdJ
+Ay+Ujj88NQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_2cd85e63-8eb5-480e-89bf-bce803ba1205"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>AmcEuuFr9ZZ99woCyLfakW3f08G/Gy4g0JKIOiFESyAKFhbKv27toaOOZdYPFD1CE3WOV3rwHBdJ
+InMHWx1qaQ==</DigestValue></Reference></SignedInfo><SignatureValue>Ubr/aoDRj8J4M1AnjPTc9BXnkp1AWaB9lFBmdKNVZ4HeS4MhCn1dy7pybNJ2lvVRoBBRP52c/qFO
+r32Bnes0NKROVwC1riMQLSioHgGo1V2X6d/wL/gXnHwU6D5FwTdtVWGkB+n+JBtlGgBDy4XrDlZ9
+MzFO2kr3nnpxYFhoYZjIwd8765IzqSHy8d1KmMOXbeLtg6MUhXACRUq3clUofK03LzMD+GtPzBEI
+Y0xsq7EONq6xqwyYbvKXvwDRQL8lsyDhg9c+Jd/Keh06oF9nQLJhxw/YJOct7RbKFYKWtFTwIFBP
+dhTWHd/+iHfEJSwOX9nZ3+5H6jNzoKjSfd1xjg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -404,4 +404,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3d3548a6-2d2c-46b3-8c5e-cb1f911396cd" Target="#_ab8512c6-1d2c-4335-a036-03aa88e81214"><Timestamp>2019-08-16 05:06:57</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_2cd85e63-8eb5-480e-89bf-bce803ba1205" Target="#_70b40fa0-78b4-43a6-94d2-dcb7a84336d6"><Timestamp>2019-08-16 05:07:25</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
