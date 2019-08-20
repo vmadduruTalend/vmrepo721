@@ -29,6 +29,7 @@
     <module>jobs/process/Master_Jobs/Master_Jobs/job_master_template_0.1</module>
     <module>jobs/process/templates/metadata_master_template_0.1</module>
     <module>jobs/process/sensispov/job01_file_validate_0.1</module>
+    <module>jobs/process/sensispov/job02_load_sales_force_data_0.1</module>
   </modules>
   <properties>
     <signer.version>7.2.1</signer.version>
