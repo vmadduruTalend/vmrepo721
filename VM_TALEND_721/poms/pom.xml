@@ -31,8 +31,8 @@
     <module>jobs/process/sensispov/job01_file_validate_0.1</module>
     <module>jobs/process/sensispov/job02_load_sales_force_data_0.1</module>
     <module>jobs/process/sensispov/job03_upsert_data_to_sales_force_0.1</module>
-    <module>jobs/process/templates/job_subjob1_template_copy_0.1</module>
     <module>jobs/process/templates/job_subjob2_template_copy_0.1</module>
+    <module>jobs/process/templates/job_subjob1_0.1</module>
   </modules>
   <properties>
     <signer.version>7.2.1</signer.version>
