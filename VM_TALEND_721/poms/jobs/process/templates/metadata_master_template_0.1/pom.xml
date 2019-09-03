@@ -139,7 +139,7 @@
     </dependency>
     <dependency>
       <groupId>org.example.vm_talend_721.job</groupId>
-      <artifactId>job_Subjob1_template</artifactId>
+      <artifactId>job_Subjob1</artifactId>
       <version>0.1.0</version>
     </dependency>
   </dependencies>
