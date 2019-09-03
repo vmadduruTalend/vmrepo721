@@ -34,6 +34,7 @@
     <module>jobs/process/templates/job_subjob1_0.1</module>
     <module>jobs/process/templates/job_subjob2_0.1</module>
     <module>jobs/process/templates/metadata_master_template_with_2_subjobs_0.1</module>
+    <module>jobs/process/reusable/job01_mainjob_0.1</module>
   </modules>
   <properties>
     <signer.version>7.2.1</signer.version>
