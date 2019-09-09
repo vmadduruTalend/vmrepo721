@@ -6,12 +6,12 @@
     <groupId>org.example.vm_talend_721</groupId>
     <artifactId>code.Master</artifactId>
     <version>7.2.1</version>
-    <relativePath>../../../../../</relativePath>
+    <relativePath>../../../../../../</relativePath>
   </parent>
   <groupId>org.example.vm_talend_721.job</groupId>
-  <artifactId>MO_Staging_Controller</artifactId>
+  <artifactId>MO_Lead_Campaign_Year</artifactId>
   <version>0.1.0</version>
-  <name>VM_TALEND_721 MO_Staging_Controller-0.1.0 (0.1,Job Designs)</name>
+  <name>VM_TALEND_721 MO_Lead_Campaign_Year-0.1.0 (0.1,Job Designs)</name>
   <properties>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
@@ -19,24 +19,24 @@
     <current.int-resources.dir>${basedir}/src/main/resources</current.int-resources.dir>
     <talend.job.version>0.1</talend.job.version>
     <talend.project.name.lowercase>vm_talend_721</talend.project.name.lowercase>
-    <talend.job.path>vm_talend_721/mo_staging_controller_0_1</talend.job.path>
+    <talend.job.path>vm_talend_721/mo_lead_campaign_year_0_1</talend.job.path>
     <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
     <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
     <talend.project.name>VM_TALEND_721</talend.project.name>
     <talend.product.version>7.2.1.20190620_1446</talend.product.version>
-    <talend.job.finalName>mo_staging_controller_0_1</talend.job.finalName>
+    <talend.job.finalName>mo_lead_campaign_year_0_1</talend.job.finalName>
     <talend.pigudf.groupid>org.example.vm_talend_721.pigudf</talend.pigudf.groupid>
     <talend.routine.groupid>org.example.vm_talend_721.code</talend.routine.groupid>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
-    <talend.job.jvmargs>-Duser.timezone=America/New_York -Dfile.encoding=UTF-8 </talend.job.jvmargs>
+    <talend.job.jvmargs>-Xms256M -Xmx1024M -Dfile.encoding=UTF-8</talend.job.jvmargs>
     <talend.job.stat>true</talend.job.stat>
     <talend.job.context>Default</talend.job.context>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
     <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
-    <talend.job.name>MO_Staging_Controller</talend.job.name>
-    <talend.job.id>__wYyMLoQEem2V6W6Se_IuQ</talend.job.id>
+    <talend.job.name>MO_Lead_Campaign_Year</talend.job.name>
+    <talend.job.id>_23WuMIxsEemBffBrFOSMJg</talend.job.id>
     <talend.project.id>0</talend.project.id>
-    <talend.job.folder>marketingoutbound/mo_stage/</talend.job.folder>
+    <talend.job.folder>marketingoutbound/mo_import/</talend.job.folder>
     <talend.job.framework></talend.job.framework>
     <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
     <talend.job.type>Standard</talend.job.type>
@@ -136,21 +136,6 @@
       <groupId>org.example.vm_talend_721.code</groupId>
       <artifactId>routines</artifactId>
       <version>7.2.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.example.vm_talend_721.job</groupId>
-      <artifactId>MO_Stg_Leads</artifactId>
-      <version>0.1.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.example.vm_talend_721.job</groupId>
-      <artifactId>MO_Lead_Campaign_Year</artifactId>
-      <version>0.1.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.example.vm_talend_721.job</groupId>
-      <artifactId>MO_Stg_Lead_Activities</artifactId>
-      <version>0.1.0</version>
     </dependency>
     <dependency>
       <groupId>org.example.vm_talend_721.joblet</groupId>
@@ -270,8 +255,8 @@
       <properties>
         <talend.pigudf.excludes.set>org.talend.pigudf.${talend.project.name.lowercase}:*</talend.pigudf.excludes.set>
         <talend.libraries.excludes.set>${talend.libraries.includes.set}</talend.libraries.excludes.set>
-        <talend.code.excludes.set>org.talend.code.${talend.project.name.lowercase}:*</talend.code.excludes.set>
         <talend.jobs.excludes.set>${project.groupId}:*</talend.jobs.excludes.set>
+        <talend.code.excludes.set>org.talend.code.${talend.project.name.lowercase}:*</talend.code.excludes.set>
         <talend.libraries.includes.set>org.talend.libraries:*</talend.libraries.includes.set>
         <current.job.binaries.include>${project.groupId}:${project.artifactId}:${project.version}</current.job.binaries.include>
       </properties>

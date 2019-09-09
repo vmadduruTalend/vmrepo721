@@ -15,10 +15,6 @@
     <module>jobs/process/job01_load_context_variables_0.1</module>
     <module>jobs/process/job02_load_implicit_context_variables_0.1</module>
     <module>jobs/process/job03_connect_to_database_0.1</module>
-    <module>jobs/process/MarketingOutbound/MO_Import/mo_lead_campaign_year_0.1</module>
-    <module>jobs/process/MarketingOutbound/MO_Import/mo_stg_lead_activities_0.1</module>
-    <module>jobs/process/MarketingOutbound/MO_Import/mo_stg_leads_0.1</module>
-    <module>jobs/process/MarketingOutbound/MO_Stage/mo_staging_controller_0.1</module>
     <module>jobs/process/templates/job_master_template_0.1</module>
     <module>jobs/joblets/Logging/jlt_statistics_and_error_0.1</module>
     <module>jobs/process/Master_Jobs/Master_Jobs/job_subjob2_template_0.1</module>
@@ -38,6 +34,10 @@
     <module>jobs/joblets/toberemoved/alr_error_logging_v2_0.1</module>
     <module>jobs/joblets/toberemoved/kibana_error_logger_0.1</module>
     <module>jobs/process/toberemoved/CodePromotion/buildjobsinlists_0.1</module>
+    <module>jobs/process/toberemoved/MarketingOutbound/MO_Import/mo_lead_campaign_year_0.1</module>
+    <module>jobs/process/toberemoved/MarketingOutbound/MO_Import/mo_stg_lead_activities_0.1</module>
+    <module>jobs/process/toberemoved/MarketingOutbound/MO_Import/mo_stg_leads_0.1</module>
+    <module>jobs/process/toberemoved/MarketingOutbound/MO_Stage/mo_staging_controller_0.1</module>
   </modules>
   <properties>
     <signer.version>7.2.1</signer.version>
