@@ -6,7 +6,7 @@
     <groupId>org.example.vm_talend_721</groupId>
     <artifactId>code.Master</artifactId>
     <version>7.2.1</version>
-    <relativePath>../../../</relativePath>
+    <relativePath>../../../../</relativePath>
   </parent>
   <groupId>org.example.vm_talend_721.joblet</groupId>
   <artifactId>Kibana_Error_Logger</artifactId>
