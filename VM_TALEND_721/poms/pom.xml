@@ -37,6 +37,7 @@
     <module>jobs/process/reusable/job01_mainjob_0.1</module>
     <module>jobs/process/reusable/job02_reuasblejob_0.1</module>
     <module>jobs/joblets/reusable_job01_0.1</module>
+    <module>jobs/joblets/Logging/jlt_statistics_and_error_template_0.1</module>
   </modules>
   <properties>
     <signer.version>7.2.1</signer.version>
